@@ -8,7 +8,7 @@ namespace RKO_2020
 {
     class Czas
     {
-        public String Wyswietl_czas(int ticks)
+        public static String Wyswietl_czas(int ticks)
         {
             int sekundy = ticks;
             if (ticks > 59)

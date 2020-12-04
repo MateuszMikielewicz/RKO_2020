@@ -21,7 +21,7 @@ namespace RKO_2020
         private void timer1_Tick(object sender, EventArgs e)
         {
             ticks++;
-            Czas_box.Text = Wyswietl_czas(ticks);   //Wyświetlanie czasu
+            CZAS_BOX.Text = "CZAS " + Czas.Wyswietl_czas(ticks);   //Wyświetlanie czasu
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -32,15 +32,6 @@ namespace RKO_2020
         private void menuStrip_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
-        }
-        public String Wyswietl_czas(int ticks)
-        {
-            int sekundy = ticks - 60 * (ticks / 60); ;
-            if (sekundy < 10)
-            {
-                return (ticks / 60).ToString() + ":0" + sekundy.ToString();
-            }
-            return (ticks / 60).ToString() + ":" + sekundy.ToString();
         }
     }
 }

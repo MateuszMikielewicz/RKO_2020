@@ -120,7 +120,109 @@
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>14, 22</value>
   </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="panel_głowny.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="panel_głowny.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1001, 580</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panel_głowny.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel_głowny.Name" xml:space="preserve">
+    <value>panel_głowny</value>
+  </data>
+  <data name="&gt;&gt;panel_głowny.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_głowny.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel_głowny.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CZAS_BOX.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CZAS_BOX.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 16pt</value>
+  </data>
+  <data name="CZAS_BOX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 26</value>
+  </data>
+  <data name="CZAS_BOX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 39</value>
+  </data>
+  <data name="CZAS_BOX.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="CZAS_BOX.Text" xml:space="preserve">
+    <value>CZAS 0:00</value>
+  </data>
+  <data name="&gt;&gt;CZAS_BOX.Name" xml:space="preserve">
+    <value>CZAS_BOX</value>
+  </data>
+  <data name="&gt;&gt;CZAS_BOX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CZAS_BOX.Parent" xml:space="preserve">
+    <value>panelMENU</value>
+  </data>
+  <data name="&gt;&gt;CZAS_BOX.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelMENU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 581</value>
+  </data>
+  <data name="panelMENU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1001, 132</value>
+  </data>
+  <data name="panelMENU.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panelMENU.Name" xml:space="preserve">
+    <value>panelMENU</value>
+  </data>
+  <data name="&gt;&gt;panelMENU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelMENU.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelMENU.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>64</value>
   </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1002, 712</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>WindowsDefaultBounds</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>RKO_2020</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
