@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace RKO_2020
 {
-    class Czas
+    public class Czas
     {
+
         public static String Wyswietl_czas(int ticks)
         {
-            int sekundy = ticks;
-            if (ticks > 59)
+            int sekundy = ticks - 60 * (ticks / 60); ;
+            if (sekundy < 10)
             {
-                sekundy = sekundy - 60*(ticks/60);
+                return (ticks / 60).ToString() + ":0" + sekundy.ToString();
             }
-            String zegar = (ticks/60).ToString()+":"+sekundy.ToString();
-            return zegar;
+            return (ticks / 60).ToString() + ":" + sekundy.ToString();
         }
     }
 }
