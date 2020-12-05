@@ -12,8 +12,10 @@ namespace RKO_2020
 {
     public partial class Form1 : Form
     {
-        int ticks=0;
-        int flaga = 0;
+        
+        
+        public static Czas czas = new Czas();
+        Resuscytacja etap2 = new Resuscytacja();
         public Form1()
         {
             InitializeComponent();
@@ -21,9 +23,8 @@ namespace RKO_2020
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            ticks++;
-            CZAS_BOX.Text = "CZAS " + Czas.Wyswietl_czas(ticks);   //Wyświetlanie czasu
-            
+            czas.ticks++;
+            CZAS_BOX.Text = czas.Wyswietl_czas();   //Wyświetlanie czasu
         }
 
 
@@ -32,34 +33,19 @@ namespace RKO_2020
 
         }
 
-        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        private void Form1_KeyDown(object sender, KeyEventArgs e)  ///wciskanie przycisku spacji
         {
-           
-                
-           
-           
+            if(e.KeyValue == 32) {
+                etap2.Wzrost_Życia();
+                pictureBox1.Image = global::RKO_2020.Properties.Resources.ucisk;  //Wyswietl uciskajacą faloske
+                Poziom_Życia.Text = etap2.Wyświetl_Życie();  //Wyswietl poziom zycia
+            }
         }
 
-        private void Form1_KeyPress(object sender, KeyPressEventArgs e)
+        private void Form1_KeyUp(object sender, KeyEventArgs e)     ///pusczenie przycisku spacji
         {
-            //pictureBox1.Image = global::RKO_2020.Properties.Resources.ucisk;
-            //label1.Text = "nacisnąłeś" + e.KeyChar;
-        }
-
-        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (flaga == 0)
-            {
-                pictureBox1.Image = global::RKO_2020.Properties.Resources.ucisk;
-                flaga = 1;
-            }
-            else
-            {
-                pictureBox1.Image = global::RKO_2020.Properties.Resources.gotowy_do_ucisku;
-                flaga = 0;
-            }
-            textBox1.Text = "nacisnąłeś " + e.KeyChar;
-
+            pictureBox1.Image = global::RKO_2020.Properties.Resources.gotowy_do_ucisku;
+            etap2.wciśnięty_przycisk = false;
         }
     }
 }

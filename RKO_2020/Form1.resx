@@ -120,39 +120,36 @@
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>14, 22</value>
   </metadata>
-  <data name="&gt;&gt;CZAS_BOX.Name" xml:space="preserve">
-    <value>CZAS_BOX</value>
-  </data>
-  <data name="&gt;&gt;CZAS_BOX.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CZAS_BOX.Parent" xml:space="preserve">
-    <value>panelMENU</value>
-  </data>
-  <data name="&gt;&gt;CZAS_BOX.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Poziom_Życia.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="panelMENU.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 581</value>
+  <data name="Poziom_Życia.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 15.75pt</value>
   </data>
-  <data name="panelMENU.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1001, 132</value>
+  <data name="Poziom_Życia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 40</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="panelMENU.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="Poziom_Życia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 26</value>
   </data>
-  <data name="&gt;&gt;panelMENU.Name" xml:space="preserve">
+  <data name="Poziom_Życia.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Poziom_Życia.Text" xml:space="preserve">
+    <value>POZIOM ŻYCIA 0%</value>
+  </data>
+  <data name="&gt;&gt;Poziom_Życia.Name" xml:space="preserve">
+    <value>Poziom_Życia</value>
+  </data>
+  <data name="&gt;&gt;Poziom_Życia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Poziom_Życia.Parent" xml:space="preserve">
     <value>panelMENU</value>
   </data>
-  <data name="&gt;&gt;panelMENU.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelMENU.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panelMENU.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Poziom_Życia.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="CZAS_BOX.AutoSize" type="System.Boolean, mscorlib">
@@ -166,10 +163,13 @@
     <value>NoControl</value>
   </data>
   <data name="CZAS_BOX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 26</value>
+    <value>16, 13</value>
+  </data>
+  <data name="CZAS_BOX.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="CZAS_BOX.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 39</value>
+    <value>99, 27</value>
   </data>
   <data name="CZAS_BOX.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -187,43 +187,58 @@
     <value>panelMENU</value>
   </data>
   <data name="&gt;&gt;CZAS_BOX.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelMENU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 378</value>
+  </data>
+  <data name="panelMENU.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="panelMENU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>667, 86</value>
+  </data>
+  <data name="panelMENU.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panelMENU.Name" xml:space="preserve">
+    <value>panelMENU</value>
+  </data>
+  <data name="&gt;&gt;panelMENU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelMENU.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelMENU.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="panel_głowny.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 49</value>
-  </data>
-  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 26</value>
-  </data>
-  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
-    <value>textBox1</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
-    <value>panel_głowny</value>
-  </data>
-  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="pictureBox1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
+  </data>
+  <data name="pictureBox1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pictureBox1.ErrorImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
   <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="pictureBox1.InitialImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>376, 306</value>
+    <value>251, 199</value>
+  </data>
+  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>249, 239</value>
+    <value>166, 155</value>
   </data>
   <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -241,13 +256,16 @@
     <value>panel_głowny</value>
   </data>
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="panel_głowny.Location" type="System.Drawing.Point, System.Drawing">
     <value>1, 1</value>
   </data>
+  <data name="panel_głowny.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
   <data name="panel_głowny.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1001, 580</value>
+    <value>667, 377</value>
   </data>
   <data name="panel_głowny.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -271,10 +289,13 @@
     <value>64</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>9, 20</value>
+    <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1002, 712</value>
+    <value>668, 463</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>RKO_2020</value>

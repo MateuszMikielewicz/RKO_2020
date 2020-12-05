@@ -8,15 +8,20 @@ namespace RKO_2020
 {
     public class Czas
     {
+        public int ticks;
 
-        public static String Wyswietl_czas(int ticks)
+        public Czas() {
+            this.ticks = 0;
+        }
+
+        public String Wyswietl_czas()
         {
             int sekundy = ticks - 60 * (ticks / 60); ;
             if (sekundy < 10)
             {
-                return (ticks / 60).ToString() + ":0" + sekundy.ToString();
+                return "CZAS "+(ticks / 60).ToString() + ":0" + sekundy.ToString();
             }
-            return (ticks / 60).ToString() + ":" + sekundy.ToString();
+            return "CZAS "+(ticks / 60).ToString() + ":" + sekundy.ToString();
         }
     }
 }
