@@ -121,18 +121,52 @@
     <value>14, 22</value>
   </metadata>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Poziom_Życia.AutoSize" type="System.Boolean, mscorlib">
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 16pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 39</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 39</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panelMENU</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Poziom_Życia.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="Poziom_Życia.Font" type="System.Drawing.Font, System.Drawing">
     <value>Impact, 15.75pt</value>
   </data>
   <data name="Poziom_Życia.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 40</value>
+    <value>24, 62</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Poziom_Życia.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="Poziom_Życia.Size" type="System.Drawing.Size, System.Drawing">
-    <value>214, 26</value>
+    <value>327, 39</value>
   </data>
   <data name="Poziom_Życia.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -150,7 +184,7 @@
     <value>panelMENU</value>
   </data>
   <data name="&gt;&gt;Poziom_Życia.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="CZAS_BOX.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -158,18 +192,14 @@
   <data name="CZAS_BOX.Font" type="System.Drawing.Font, System.Drawing">
     <value>Impact, 16pt</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="CZAS_BOX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="CZAS_BOX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 13</value>
-  </data>
-  <data name="CZAS_BOX.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>24, 20</value>
   </data>
   <data name="CZAS_BOX.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 27</value>
+    <value>145, 39</value>
   </data>
   <data name="CZAS_BOX.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -187,16 +217,13 @@
     <value>panelMENU</value>
   </data>
   <data name="&gt;&gt;CZAS_BOX.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="panelMENU.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 378</value>
-  </data>
-  <data name="panelMENU.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>2, 582</value>
   </data>
   <data name="panelMENU.Size" type="System.Drawing.Size, System.Drawing">
-    <value>667, 86</value>
+    <value>1000, 132</value>
   </data>
   <data name="panelMENU.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -232,13 +259,10 @@
     <value />
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>253, 197</value>
-  </data>
-  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>380, 303</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 155</value>
+    <value>249, 238</value>
   </data>
   <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
@@ -259,13 +283,10 @@
     <value>0</value>
   </data>
   <data name="panel_głowny.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 1</value>
-  </data>
-  <data name="panel_głowny.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>2, 2</value>
   </data>
   <data name="panel_głowny.Size" type="System.Drawing.Size, System.Drawing">
-    <value>667, 377</value>
+    <value>1000, 580</value>
   </data>
   <data name="panel_głowny.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -282,6 +303,9 @@
   <data name="&gt;&gt;panel_głowny.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <metadata name="timer_sprawdzający.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>128, 22</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -289,13 +313,10 @@
     <value>64</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>9, 20</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>668, 463</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>1002, 712</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>RKO_2020</value>
@@ -304,6 +325,12 @@
     <value>timer1</value>
   </data>
   <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;timer_sprawdzający.Name" xml:space="preserve">
+    <value>timer_sprawdzający</value>
+  </data>
+  <data name="&gt;&gt;timer_sprawdzający.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">

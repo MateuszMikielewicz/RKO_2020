@@ -32,10 +32,12 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panelMENU = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.Poziom_Życia = new System.Windows.Forms.Label();
             this.CZAS_BOX = new System.Windows.Forms.Label();
             this.panel_głowny = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.timer_sprawdzający = new System.Windows.Forms.Timer(this.components);
             this.panelMENU.SuspendLayout();
             this.panel_głowny.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -50,10 +52,16 @@
             // panelMENU
             // 
             this.panelMENU.BackColor = System.Drawing.Color.Green;
+            this.panelMENU.Controls.Add(this.label1);
             this.panelMENU.Controls.Add(this.Poziom_Życia);
             this.panelMENU.Controls.Add(this.CZAS_BOX);
             resources.ApplyResources(this.panelMENU, "panelMENU");
             this.panelMENU.Name = "panelMENU";
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
             // 
             // Poziom_Życia
             // 
@@ -79,6 +87,12 @@
             this.pictureBox1.Image = global::RKO_2020.Properties.Resources.gotowy_do_ucisku;
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
+            // 
+            // timer_sprawdzający
+            // 
+            this.timer_sprawdzający.Enabled = true;
+            this.timer_sprawdzający.Interval = 40;
+            this.timer_sprawdzający.Tick += new System.EventHandler(this.timer_sprawdzający_Tick);
             // 
             // Form1
             // 
@@ -108,6 +122,8 @@
         private System.Windows.Forms.Label CZAS_BOX;
         private System.Windows.Forms.Label Poziom_Życia;
         public System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Timer timer_sprawdzający;
+        public System.Windows.Forms.Label label1;
     }
 }
 

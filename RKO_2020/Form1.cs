@@ -25,11 +25,11 @@ namespace RKO_2020
         {
             CZAS_BOX.Text = czas.Wyswietl_czas();   //Wyświetlanie czasu
         }
-        /*private void timer_sprawdzający_Tick(object sender, EventArgs e)
+        private void timer_sprawdzający_Tick(object sender, EventArgs e)
         {
-            etap2.Aktualizacja_Życia_Brak_Reakcji();
+            etap2.Aktualizacja_Życia_Brak_Reakcji(label1);
             Poziom_Życia.Text=etap2.Wyświetl_Życie();
-        }*/
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -38,7 +38,7 @@ namespace RKO_2020
         private void Form1_KeyDown(object sender, KeyEventArgs e)  ///wciskanie przycisku spacji
         {
             if(e.KeyValue == 32) { 
-                etap2.Aktualizacja_Życia_Przycisk(); // metoda aktualizująca stan życia po kliknięciu przycisku
+                etap2.Aktualizacja_Życia_Przycisk(label1); // metoda aktualizująca stan życia po kliknięciu przycisku
                                                     //(za wczesnie -5% życia; idealnie w czas +5%)
                 pictureBox1.Image = global::RKO_2020.Properties.Resources.ucisk;  //Wyswietl uciskajacą faloske
                 Poziom_Życia.Text = etap2.Wyświetl_Życie();  //Wyswietl poziom zycia
