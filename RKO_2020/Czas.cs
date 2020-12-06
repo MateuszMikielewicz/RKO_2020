@@ -16,6 +16,7 @@ namespace RKO_2020
 
         public String Wyswietl_czas()
         {
+            ticks++;
             int sekundy = ticks - 60 * (ticks / 60); ;
             if (sekundy < 10)
             {

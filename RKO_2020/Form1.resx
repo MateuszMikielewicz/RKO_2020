@@ -132,13 +132,13 @@
     <value>16, 40</value>
   </data>
   <data name="Poziom_Życia.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 26</value>
+    <value>214, 26</value>
   </data>
   <data name="Poziom_Życia.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="Poziom_Życia.Text" xml:space="preserve">
-    <value>POZIOM ŻYCIA 0%</value>
+    <value>POZIOM ŻYWOTNOŚCI 0%</value>
   </data>
   <data name="&gt;&gt;Poziom_Życia.Name" xml:space="preserve">
     <value>Poziom_Życia</value>
@@ -232,7 +232,7 @@
     <value />
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>251, 199</value>
+    <value>253, 197</value>
   </data>
   <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
