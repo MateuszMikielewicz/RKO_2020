@@ -50,5 +50,19 @@ namespace RKO_2020
             pictureBox1.Image = global::RKO_2020.Properties.Resources.gotowy_do_ucisku;
             etap2.wciśnięty_przycisk = false;
         }
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+            CZAS_BOX.Text = "przyscsac";
+        }
+
+        private void button1_MouseEnter(object sender, EventArgs e)
+        {
+            CZAS_BOX.Text = "przyscsacdadasdsa";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

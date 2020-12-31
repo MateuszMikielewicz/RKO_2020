@@ -36,11 +36,14 @@
             this.Poziom_Życia = new System.Windows.Forms.Label();
             this.CZAS_BOX = new System.Windows.Forms.Label();
             this.panel_głowny = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.timer_sprawdzający = new System.Windows.Forms.Timer(this.components);
+            this.panel1 = new System.Windows.Forms.Panel();
             this.panelMENU.SuspendLayout();
             this.panel_głowny.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // timer1
@@ -77,8 +80,21 @@
             // 
             this.panel_głowny.BackgroundImage = global::RKO_2020.Properties.Resources.tło_gra_rko;
             resources.ApplyResources(this.panel_głowny, "panel_głowny");
+            this.panel_głowny.Controls.Add(this.panel1);
             this.panel_głowny.Controls.Add(this.pictureBox1);
             this.panel_głowny.Name = "panel_głowny";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.ForeColor = System.Drawing.Color.Transparent;
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.MouseEnter += new System.EventHandler(this.button1_MouseEnter);
+            this.button1.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
             // 
             // pictureBox1
             // 
@@ -93,6 +109,14 @@
             this.timer_sprawdzający.Enabled = true;
             this.timer_sprawdzający.Interval = 40;
             this.timer_sprawdzający.Tick += new System.EventHandler(this.timer_sprawdzający_Tick);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.BackgroundImage = global::RKO_2020.Properties.Resources.gotowy_do_ucisku;
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Name = "panel1";
             // 
             // Form1
             // 
@@ -110,6 +134,7 @@
             this.panelMENU.PerformLayout();
             this.panel_głowny.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -124,6 +149,8 @@
         public System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Timer timer_sprawdzający;
         public System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 
