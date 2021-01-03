@@ -73,6 +73,96 @@ namespace RKO_2020.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap none_image {
+            get {
+                object obj = ResourceManager.GetObject("none_image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap obserwator {
+            get {
+                object obj = ResourceManager.GetObject("obserwator", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap obserwator_z_telefonem {
+            get {
+                object obj = ResourceManager.GetObject("obserwator_z_telefonem", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap obserwator_zaznaczony {
+            get {
+                object obj = ResourceManager.GetObject("obserwator_zaznaczony", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap odchylona_głowa {
+            get {
+                object obj = ResourceManager.GetObject("odchylona_głowa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pozycja_startowa {
+            get {
+                object obj = ResourceManager.GetObject("pozycja_startowa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pozycja_startowa_zaznaczenie_ciała {
+            get {
+                object obj = ResourceManager.GetObject("pozycja_startowa_zaznaczenie_ciała", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Przed_położeniem_głowy_zaznaczenie {
+            get {
+                object obj = ResourceManager.GetObject("Przed_położeniem_głowy_zaznaczenie", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap skulony_bohater_odchylona_glowa {
+            get {
+                object obj = ResourceManager.GetObject("skulony_bohater_odchylona_glowa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap tło_gra_rko {
             get {
                 object obj = ResourceManager.GetObject("tło_gra_rko", resourceCulture);

@@ -121,6 +121,33 @@
   <data name="gotowy_do_ucisku" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gotowy_do_ucisku.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="none_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\none_image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="obserwator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obserwator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="obserwator_zaznaczony" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obserwator_zaznaczony.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="obserwator_z_telefonem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obserwator_z_telefonem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="odchylona_głowa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\odchylona_głowa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pozycja_startowa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pozycja_startowa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pozycja_startowa_zaznaczenie_ciała" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pozycja_startowa_zaznaczenie_ciała.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Przed_położeniem_głowy_zaznaczenie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Przed_położeniem_głowy_zaznaczenie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skulony_bohater_odchylona_glowa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skulony_bohater_odchylona_glowa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="tło_gra_rko" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tło_gra_rko.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
