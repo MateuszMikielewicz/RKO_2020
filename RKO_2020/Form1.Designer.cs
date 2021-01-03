@@ -220,6 +220,7 @@
             resources.ApplyResources(this.obserwator_pictureBox, "obserwator_pictureBox");
             this.obserwator_pictureBox.Name = "obserwator_pictureBox";
             this.obserwator_pictureBox.TabStop = false;
+            this.obserwator_pictureBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.obserwator_pictureBox_MouseClick);
             this.obserwator_pictureBox.MouseEnter += new System.EventHandler(this.obserwator_pictureBox_MouseEnter);
             this.obserwator_pictureBox.MouseLeave += new System.EventHandler(this.obserwator_pictureBox_MouseLeave);
             // 
@@ -229,6 +230,7 @@
             resources.ApplyResources(this.glowa_pictureBox, "glowa_pictureBox");
             this.glowa_pictureBox.Name = "glowa_pictureBox";
             this.glowa_pictureBox.TabStop = false;
+            this.glowa_pictureBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.glowa_pictureBox_MouseClick);
             this.glowa_pictureBox.MouseEnter += new System.EventHandler(this.glowa_pictureBox_MouseEnter);
             this.glowa_pictureBox.MouseLeave += new System.EventHandler(this.glowa_pictureBox_MouseLeave);
             // 

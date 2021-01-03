@@ -123,6 +123,26 @@ namespace RKO_2020.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap odchylona_glowa_zanaczenie_glowy {
+            get {
+                object obj = ResourceManager.GetObject("odchylona_glowa_zanaczenie_glowy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap odchylona_glowa_zanaczenie_tulowia {
+            get {
+                object obj = ResourceManager.GetObject("odchylona_glowa_zanaczenie_tulowia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pozycja_startowa {
             get {
                 object obj = ResourceManager.GetObject("pozycja_startowa", resourceCulture);
@@ -156,6 +176,16 @@ namespace RKO_2020.Properties {
         internal static System.Drawing.Bitmap skulony_bohater_odchylona_glowa {
             get {
                 object obj = ResourceManager.GetObject("skulony_bohater_odchylona_glowa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap skulony_bohater_pozycja_startowa {
+            get {
+                object obj = ResourceManager.GetObject("skulony_bohater_pozycja_startowa", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

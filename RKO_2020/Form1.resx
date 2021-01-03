@@ -120,11 +120,68 @@
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>14, 22</value>
   </metadata>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panelMENU</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Poziom_Życia.Name" xml:space="preserve">
+    <value>Poziom_Życia</value>
+  </data>
+  <data name="&gt;&gt;Poziom_Życia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Poziom_Życia.Parent" xml:space="preserve">
+    <value>panelMENU</value>
+  </data>
+  <data name="&gt;&gt;Poziom_Życia.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;CZAS_BOX.Name" xml:space="preserve">
+    <value>CZAS_BOX</value>
+  </data>
+  <data name="&gt;&gt;CZAS_BOX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CZAS_BOX.Parent" xml:space="preserve">
+    <value>panelMENU</value>
+  </data>
+  <data name="&gt;&gt;CZAS_BOX.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="panelMENU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 582</value>
+  </data>
+  <data name="panelMENU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 132</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panelMENU.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panelMENU.Name" xml:space="preserve">
+    <value>panelMENU</value>
+  </data>
+  <data name="&gt;&gt;panelMENU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelMENU.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelMENU.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Impact, 16pt</value>
   </data>
@@ -228,35 +285,191 @@
   <data name="&gt;&gt;CZAS_BOX.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="panelMENU.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 582</value>
-  </data>
-  <data name="panelMENU.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1000, 132</value>
-  </data>
-  <data name="panelMENU.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;panelMENU.Name" xml:space="preserve">
-    <value>panelMENU</value>
-  </data>
-  <data name="&gt;&gt;panelMENU.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelMENU.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panelMENU.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <metadata name="timer_sprawdzający.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>128, 22</value>
   </metadata>
   <data name="panel_głowny.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
+  <data name="&gt;&gt;panel_wyboru3.Name" xml:space="preserve">
+    <value>panel_wyboru3</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru3.Parent" xml:space="preserve">
+    <value>panel_głowny</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru2.Name" xml:space="preserve">
+    <value>panel_wyboru2</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru2.Parent" xml:space="preserve">
+    <value>panel_głowny</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;obserwator_pictureBox.Name" xml:space="preserve">
+    <value>obserwator_pictureBox</value>
+  </data>
+  <data name="&gt;&gt;obserwator_pictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;obserwator_pictureBox.Parent" xml:space="preserve">
+    <value>panel_głowny</value>
+  </data>
+  <data name="&gt;&gt;obserwator_pictureBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;glowa_pictureBox.Name" xml:space="preserve">
+    <value>glowa_pictureBox</value>
+  </data>
+  <data name="&gt;&gt;glowa_pictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;glowa_pictureBox.Parent" xml:space="preserve">
+    <value>panel_głowny</value>
+  </data>
+  <data name="&gt;&gt;glowa_pictureBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tułow_pictureBox.Name" xml:space="preserve">
+    <value>tułow_pictureBox</value>
+  </data>
+  <data name="&gt;&gt;tułow_pictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tułow_pictureBox.Parent" xml:space="preserve">
+    <value>panel_głowny</value>
+  </data>
+  <data name="&gt;&gt;tułow_pictureBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;głowne_postaci_pictureBox.Name" xml:space="preserve">
+    <value>głowne_postaci_pictureBox</value>
+  </data>
+  <data name="&gt;&gt;głowne_postaci_pictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;głowne_postaci_pictureBox.Parent" xml:space="preserve">
+    <value>panel_głowny</value>
+  </data>
+  <data name="&gt;&gt;głowne_postaci_pictureBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru1.Name" xml:space="preserve">
+    <value>panel_wyboru1</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru1.Parent" xml:space="preserve">
+    <value>panel_głowny</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="panel_głowny.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="panel_głowny.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 580</value>
+  </data>
+  <data name="panel_głowny.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel_głowny.Name" xml:space="preserve">
+    <value>panel_głowny</value>
+  </data>
+  <data name="&gt;&gt;panel_głowny.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_głowny.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel_głowny.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="panel_wyboru3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
+  </data>
+  <data name="&gt;&gt;opcja2_label_3.Name" xml:space="preserve">
+    <value>opcja2_label_3</value>
+  </data>
+  <data name="&gt;&gt;opcja2_label_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;opcja2_label_3.Parent" xml:space="preserve">
+    <value>panel_wyboru3</value>
+  </data>
+  <data name="&gt;&gt;opcja2_label_3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;opcja1_label_3.Name" xml:space="preserve">
+    <value>opcja1_label_3</value>
+  </data>
+  <data name="&gt;&gt;opcja1_label_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;opcja1_label_3.Parent" xml:space="preserve">
+    <value>panel_wyboru3</value>
+  </data>
+  <data name="&gt;&gt;opcja1_label_3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;opcja1_3.Name" xml:space="preserve">
+    <value>opcja1_3</value>
+  </data>
+  <data name="&gt;&gt;opcja1_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;opcja1_3.Parent" xml:space="preserve">
+    <value>panel_wyboru3</value>
+  </data>
+  <data name="&gt;&gt;opcja1_3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;opcja2_3.Name" xml:space="preserve">
+    <value>opcja2_3</value>
+  </data>
+  <data name="&gt;&gt;opcja2_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;opcja2_3.Parent" xml:space="preserve">
+    <value>panel_wyboru3</value>
+  </data>
+  <data name="&gt;&gt;opcja2_3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panel_wyboru3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 60</value>
+  </data>
+  <data name="panel_wyboru3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>817, 185</value>
+  </data>
+  <data name="panel_wyboru3.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="panel_wyboru3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru3.Name" xml:space="preserve">
+    <value>panel_wyboru3</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru3.Parent" xml:space="preserve">
+    <value>panel_głowny</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru3.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="opcja2_label_3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -392,32 +605,80 @@
   <data name="&gt;&gt;opcja2_3.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="panel_wyboru3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>92, 60</value>
-  </data>
-  <data name="panel_wyboru3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>817, 185</value>
-  </data>
-  <data name="panel_wyboru3.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="panel_wyboru3.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;panel_wyboru3.Name" xml:space="preserve">
-    <value>panel_wyboru3</value>
-  </data>
-  <data name="&gt;&gt;panel_wyboru3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_wyboru3.Parent" xml:space="preserve">
-    <value>panel_głowny</value>
-  </data>
-  <data name="&gt;&gt;panel_wyboru3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="panel_wyboru2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
+  </data>
+  <data name="&gt;&gt;opcja2_label_2.Name" xml:space="preserve">
+    <value>opcja2_label_2</value>
+  </data>
+  <data name="&gt;&gt;opcja2_label_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;opcja2_label_2.Parent" xml:space="preserve">
+    <value>panel_wyboru2</value>
+  </data>
+  <data name="&gt;&gt;opcja2_label_2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;opcja1_label_2.Name" xml:space="preserve">
+    <value>opcja1_label_2</value>
+  </data>
+  <data name="&gt;&gt;opcja1_label_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;opcja1_label_2.Parent" xml:space="preserve">
+    <value>panel_wyboru2</value>
+  </data>
+  <data name="&gt;&gt;opcja1_label_2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;opcja1_2.Name" xml:space="preserve">
+    <value>opcja1_2</value>
+  </data>
+  <data name="&gt;&gt;opcja1_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;opcja1_2.Parent" xml:space="preserve">
+    <value>panel_wyboru2</value>
+  </data>
+  <data name="&gt;&gt;opcja1_2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;opcja2_2.Name" xml:space="preserve">
+    <value>opcja2_2</value>
+  </data>
+  <data name="&gt;&gt;opcja2_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;opcja2_2.Parent" xml:space="preserve">
+    <value>panel_wyboru2</value>
+  </data>
+  <data name="&gt;&gt;opcja2_2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panel_wyboru2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 60</value>
+  </data>
+  <data name="panel_wyboru2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>817, 185</value>
+  </data>
+  <data name="panel_wyboru2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="panel_wyboru2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru2.Name" xml:space="preserve">
+    <value>panel_wyboru2</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru2.Parent" xml:space="preserve">
+    <value>panel_głowny</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru2.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="opcja2_label_2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -552,30 +813,6 @@ i poszukaj prawidłowego oddechu</value>
   <data name="&gt;&gt;opcja2_2.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="panel_wyboru2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>92, 60</value>
-  </data>
-  <data name="panel_wyboru2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>817, 185</value>
-  </data>
-  <data name="panel_wyboru2.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="panel_wyboru2.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;panel_wyboru2.Name" xml:space="preserve">
-    <value>panel_wyboru2</value>
-  </data>
-  <data name="&gt;&gt;panel_wyboru2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_wyboru2.Parent" xml:space="preserve">
-    <value>panel_głowny</value>
-  </data>
-  <data name="&gt;&gt;panel_wyboru2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="obserwator_pictureBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>783, 303</value>
   </data>
@@ -683,6 +920,102 @@ i poszukaj prawidłowego oddechu</value>
   </data>
   <data name="panel_wyboru1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
+  </data>
+  <data name="&gt;&gt;opcja3_label_1.Name" xml:space="preserve">
+    <value>opcja3_label_1</value>
+  </data>
+  <data name="&gt;&gt;opcja3_label_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;opcja3_label_1.Parent" xml:space="preserve">
+    <value>panel_wyboru1</value>
+  </data>
+  <data name="&gt;&gt;opcja3_label_1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;opcja2_label_1.Name" xml:space="preserve">
+    <value>opcja2_label_1</value>
+  </data>
+  <data name="&gt;&gt;opcja2_label_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;opcja2_label_1.Parent" xml:space="preserve">
+    <value>panel_wyboru1</value>
+  </data>
+  <data name="&gt;&gt;opcja2_label_1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;opcja1_label_1.Name" xml:space="preserve">
+    <value>opcja1_label_1</value>
+  </data>
+  <data name="&gt;&gt;opcja1_label_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;opcja1_label_1.Parent" xml:space="preserve">
+    <value>panel_wyboru1</value>
+  </data>
+  <data name="&gt;&gt;opcja1_label_1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;opcja1.Name" xml:space="preserve">
+    <value>opcja1</value>
+  </data>
+  <data name="&gt;&gt;opcja1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;opcja1.Parent" xml:space="preserve">
+    <value>panel_wyboru1</value>
+  </data>
+  <data name="&gt;&gt;opcja1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;opcja2.Name" xml:space="preserve">
+    <value>opcja2</value>
+  </data>
+  <data name="&gt;&gt;opcja2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;opcja2.Parent" xml:space="preserve">
+    <value>panel_wyboru1</value>
+  </data>
+  <data name="&gt;&gt;opcja2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;opcja3.Name" xml:space="preserve">
+    <value>opcja3</value>
+  </data>
+  <data name="&gt;&gt;opcja3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;opcja3.Parent" xml:space="preserve">
+    <value>panel_wyboru1</value>
+  </data>
+  <data name="&gt;&gt;opcja3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="panel_wyboru1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 19</value>
+  </data>
+  <data name="panel_wyboru1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>817, 266</value>
+  </data>
+  <data name="panel_wyboru1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="panel_wyboru1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru1.Name" xml:space="preserve">
+    <value>panel_wyboru1</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru1.Parent" xml:space="preserve">
+    <value>panel_głowny</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru1.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="opcja3_label_1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -883,51 +1216,6 @@ i poszukaj prawidłowego oddechu</value>
   <data name="&gt;&gt;opcja3.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="panel_wyboru1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>92, 19</value>
-  </data>
-  <data name="panel_wyboru1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>817, 266</value>
-  </data>
-  <data name="panel_wyboru1.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="panel_wyboru1.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;panel_wyboru1.Name" xml:space="preserve">
-    <value>panel_wyboru1</value>
-  </data>
-  <data name="&gt;&gt;panel_wyboru1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_wyboru1.Parent" xml:space="preserve">
-    <value>panel_głowny</value>
-  </data>
-  <data name="&gt;&gt;panel_wyboru1.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="panel_głowny.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 2</value>
-  </data>
-  <data name="panel_głowny.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1000, 580</value>
-  </data>
-  <data name="panel_głowny.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel_głowny.Name" xml:space="preserve">
-    <value>panel_głowny</value>
-  </data>
-  <data name="&gt;&gt;panel_głowny.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_głowny.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel_głowny.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -993,7 +1281,7 @@ i poszukaj prawidłowego oddechu</value>
     <value>9, 20</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1002, 712</value>
+    <value>1945, 1041</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>RKO_2020</value>

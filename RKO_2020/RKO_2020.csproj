@@ -129,5 +129,14 @@
   <ItemGroup>
     <None Include="Resources\none_image.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\odchylona_glowa_zanaczenie_tulowia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\odchylona_glowa_zanaczenie_glowy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skulony_bohater_pozycja_startowa.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

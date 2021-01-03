@@ -70,18 +70,6 @@ namespace RKO_2020
                 }
             }
         }
-        /*public void Aktualizacja_Życia_Brak_Reakcji(System.Windows.Forms.Label label)
-        {      
-                ts2 = stopwatch2.Elapsed;
-                if(ts2.TotalMilliseconds>600 && Poziom_Życia!=0)
-                {
-                    stopwatch2.Stop();
-                    stopwatch2.Reset();
-                    stopwatch2.Start();
-                    label.Text = "ZA PÓŹNO";
-                    Poziom_Życia -= 5;  
-                }
-        }*/
         public String Wyświetl_Życie()
         {
             return "POZIOM ŻYWOTNOŚCI "+Poziom_Życia.ToString()+"%";

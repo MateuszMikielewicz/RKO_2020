@@ -16,21 +16,21 @@ namespace RKO_2020
         public static Czas czas = new Czas();
         Resuscytacja etap2 = new Resuscytacja();
         Pierwsza_pomoc etap1 = new Pierwsza_pomoc();
-
-       
         public Form1()
         {
             InitializeComponent();
+            this.Size = new Size(684,502); 
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            CZAS_BOX.Text = Wyswietl_czas();   //Wyświetlanie czasu
+            CZAS_BOX.Text = czas.Wyswietl_czas();   //Wyświetlanie czasu
         }
         private void timer_sprawdzający_Tick(object sender, EventArgs e)
         {
             etap2.Aktualizacja_Życia_Przycisk(label1, false);
             Poziom_Życia.Text=etap2.Wyświetl_Życie();
+            animacje(label1,CZAS_BOX);
         }
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -73,6 +73,7 @@ namespace RKO_2020
         
         private void tułow_pictureBox_MouseClick(object sender, MouseEventArgs e)
         {
+            wyłącz_panel(panel_wyboru1, panel_wyboru2, panel_wyboru3);
             wyświetl_panel(panel_wyboru1,1);
         }
 
@@ -85,7 +86,11 @@ namespace RKO_2020
         {
             wyświetl_obraz(etap1.obraz_bazowy, głowne_postaci_pictureBox);
         }
-
+        private void glowa_pictureBox_MouseClick(object sender, MouseEventArgs e)
+        {
+            wyłącz_panel(panel_wyboru1, panel_wyboru2, panel_wyboru3);
+            wyświetl_panel(panel_wyboru2, 2);
+        }
         private void obserwator_pictureBox_MouseEnter(object sender, EventArgs e)
         {
             wyświetl_obraz(Properties.Resources.obserwator_zaznaczony, obserwator_pictureBox);
@@ -95,23 +100,28 @@ namespace RKO_2020
         {
             wyświetl_obraz(Properties.Resources.obserwator, obserwator_pictureBox);
         }
-
+        private void obserwator_pictureBox_MouseClick(object sender, MouseEventArgs e)
+        {
+            wyłącz_panel(panel_wyboru1, panel_wyboru2, panel_wyboru3);
+            wyświetl_panel(panel_wyboru3, 3);
+        }
         private void opcja2_Click(object sender, EventArgs e)
         {
-            etap1.obsługa_wyboru(2, label1);
+            etap1.obsługa_wyboru(2, label1, CZAS_BOX);
             wyłącz_panel(panel_wyboru1, panel_wyboru2, panel_wyboru3);
         }
 
         private void opcja1_Click(object sender, EventArgs e)
         {
-            etap1.obsługa_wyboru(1, label1);
+            etap1.obsługa_wyboru(1, label1, CZAS_BOX);
             wyłącz_panel(panel_wyboru1,panel_wyboru2,panel_wyboru3);
         }
 
         private void opcja3_Click(object sender, EventArgs e)
         {
-            etap1.obsługa_wyboru(3, label1);
+            etap1.obsługa_wyboru(3, label1, CZAS_BOX);
             wyłącz_panel(panel_wyboru1, panel_wyboru2, panel_wyboru3);
         }
+
     }
 }
