@@ -36,6 +36,8 @@
             this.Poziom_Życia = new System.Windows.Forms.Label();
             this.CZAS_BOX = new System.Windows.Forms.Label();
             this.timer_sprawdzający = new System.Windows.Forms.Timer(this.components);
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel_głowny = new System.Windows.Forms.Panel();
             this.panel_wyboru3 = new System.Windows.Forms.Panel();
             this.opcja2_label_3 = new System.Windows.Forms.Label();
@@ -58,8 +60,12 @@
             this.opcja1 = new System.Windows.Forms.Button();
             this.opcja2 = new System.Windows.Forms.Button();
             this.opcja3 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.dymek_1 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.dymek_2 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.dymek_3 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
             this.panelMENU.SuspendLayout();
             this.panel_głowny.SuspendLayout();
             this.panel_wyboru3.SuspendLayout();
@@ -69,6 +75,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.tułow_pictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.głowne_postaci_pictureBox)).BeginInit();
             this.panel_wyboru1.SuspendLayout();
+            this.dymek_1.SuspendLayout();
+            this.dymek_2.SuspendLayout();
+            this.dymek_3.SuspendLayout();
             this.SuspendLayout();
             // 
             // timer1
@@ -110,6 +119,18 @@
             this.timer_sprawdzający.Interval = 40;
             this.timer_sprawdzający.Tick += new System.EventHandler(this.timer_sprawdzający_Tick);
             // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.Name = "label2";
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label3.Name = "label3";
+            // 
             // panel_głowny
             // 
             this.panel_głowny.BackgroundImage = global::RKO_2020.Properties.Resources.tło_gra_rko;
@@ -122,6 +143,7 @@
             this.panel_głowny.Controls.Add(this.głowne_postaci_pictureBox);
             this.panel_głowny.Controls.Add(this.panel_wyboru1);
             this.panel_głowny.Name = "panel_głowny";
+            this.panel_głowny.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel_głowny_MouseMove);
             // 
             // panel_wyboru3
             // 
@@ -315,22 +337,49 @@
             this.opcja3.UseVisualStyleBackColor = false;
             this.opcja3.Click += new System.EventHandler(this.opcja3_Click);
             // 
-            // label2
+            // dymek_1
             // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Name = "label2";
+            this.dymek_1.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.dymek_1.Controls.Add(this.label4);
+            resources.ApplyResources(this.dymek_1, "dymek_1");
+            this.dymek_1.Name = "dymek_1";
             // 
-            // label3
+            // label4
             // 
-            resources.ApplyResources(this.label3, "label3");
-            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Name = "label3";
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
+            // 
+            // dymek_2
+            // 
+            this.dymek_2.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.dymek_2.Controls.Add(this.label5);
+            resources.ApplyResources(this.dymek_2, "dymek_2");
+            this.dymek_2.Name = "dymek_2";
+            // 
+            // label5
+            // 
+            resources.ApplyResources(this.label5, "label5");
+            this.label5.Name = "label5";
+            // 
+            // dymek_3
+            // 
+            this.dymek_3.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.dymek_3.Controls.Add(this.label6);
+            resources.ApplyResources(this.dymek_3, "dymek_3");
+            this.dymek_3.Name = "dymek_3";
+            // 
+            // label6
+            // 
+            resources.ApplyResources(this.label6, "label6");
+            this.label6.Name = "label6";
             // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.dymek_3);
+            this.Controls.Add(this.dymek_2);
+            this.Controls.Add(this.dymek_1);
             this.Controls.Add(this.panelMENU);
             this.Controls.Add(this.panel_głowny);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -354,6 +403,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.głowne_postaci_pictureBox)).EndInit();
             this.panel_wyboru1.ResumeLayout(false);
             this.panel_wyboru1.PerformLayout();
+            this.dymek_1.ResumeLayout(false);
+            this.dymek_1.PerformLayout();
+            this.dymek_2.ResumeLayout(false);
+            this.dymek_2.PerformLayout();
+            this.dymek_3.ResumeLayout(false);
+            this.dymek_3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -390,6 +445,12 @@
         private System.Windows.Forms.Label opcja1_label_3;
         private System.Windows.Forms.Button opcja1_3;
         private System.Windows.Forms.Button opcja2_3;
+        private System.Windows.Forms.Panel dymek_1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Panel dymek_2;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Panel dymek_3;
+        private System.Windows.Forms.Label label6;
     }
 }
 

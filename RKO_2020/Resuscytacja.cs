@@ -13,6 +13,7 @@ namespace RKO_2020
         public static Form1 Okno = Application.OpenForms.OfType<Form1>().FirstOrDefault();
         public int Poziom_Życia;
         public bool wciśnięty_przycisk = false;
+        static public bool koniec_inicjalizacji = false;
         TimeSpan ts = new TimeSpan();
         TimeSpan ts2 = new TimeSpan();
         Stopwatch stopwatch = new Stopwatch();
