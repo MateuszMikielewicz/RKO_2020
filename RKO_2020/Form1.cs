@@ -16,6 +16,7 @@ namespace RKO_2020
         Resuscytacja etap2 = new Resuscytacja();
         Pierwsza_pomoc etap1 = new Pierwsza_pomoc();
         List<Panel> lista_dymkow = new List<Panel>();
+        List<Panel> lista_paneli_wyboru = new List<Panel>();
         List<PictureBox> lista_pictureBoxow = new List<PictureBox>();
         public Form1()
         {
@@ -49,13 +50,17 @@ namespace RKO_2020
 
             lista_pictureBoxow.Add(głowne_postaci_pictureBox);
             lista_pictureBoxow.Add(obserwator_pictureBox);
+
+            lista_paneli_wyboru.Add(panel_wyboru1);
+            lista_paneli_wyboru.Add(panel_wyboru2);
+            lista_paneli_wyboru.Add(panel_wyboru3);
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)  ///wciskanie przycisku spacji
         {
             if (Pierwsza_pomoc.etap2_nierozpoczety) return;
             else if (e.KeyValue == 32) { 
-                etap2.Aktualizacja_Życia_Przycisk(label1, etap2.wciśnięty_przycisk); // metoda aktualizująca stan życia po kliknięciu przycisku
+                etap2.Aktualizacja_Życia_Przycisk(label1, true); // metoda aktualizująca stan życia po kliknięciu przycisku
                                                                  //(za wczesnie -5% życia; idealnie w czas +5%)
                 głowne_postaci_pictureBox.Image = global::RKO_2020.Properties.Resources.ucisk;  //Wyswietl uciskajacą faloske
                 Poziom_Życia.Text = etap2.Wyświetl_Życie();  //Wyswietl poziom zycia
@@ -83,8 +88,8 @@ namespace RKO_2020
         
         private void tułow_pictureBox_MouseClick(object sender, MouseEventArgs e)
         {
-            wyłącz_panel(panel_wyboru1, panel_wyboru2, panel_wyboru3);
-            wyświetl_panel(panel_wyboru1,1);
+            wyłącz_panel(panel_wyboru1, panel_wyboru2, panel_wyboru3, this);
+            wyswietl_panel(panel_wyboru1,1);
         }
 
         private void glowa_pictureBox_MouseEnter(object sender, EventArgs e)
@@ -98,8 +103,8 @@ namespace RKO_2020
         }
         private void glowa_pictureBox_MouseClick(object sender, MouseEventArgs e)
         {
-            wyłącz_panel(panel_wyboru1, panel_wyboru2, panel_wyboru3);
-            wyświetl_panel(panel_wyboru2, 2);
+            wyłącz_panel(panel_wyboru1, panel_wyboru2, panel_wyboru3, this);
+            wyswietl_panel(panel_wyboru2, 2);
         }
         private void obserwator_pictureBox_MouseEnter(object sender, EventArgs e)
         {
@@ -112,24 +117,24 @@ namespace RKO_2020
         }
         private void obserwator_pictureBox_MouseClick(object sender, MouseEventArgs e)
         {
-            wyłącz_panel(panel_wyboru1, panel_wyboru2, panel_wyboru3);
-            wyświetl_panel(panel_wyboru3, 3);
+            wyłącz_panel(panel_wyboru1, panel_wyboru2, panel_wyboru3, this);
+            wyswietl_panel(panel_wyboru3, 3);
         }
         private void opcja2_Click(object sender, EventArgs e)
         {
-            wyłącz_panel(panel_wyboru1, panel_wyboru2, panel_wyboru3);
+            wyłącz_panel(panel_wyboru1, panel_wyboru2, panel_wyboru3, this);
             etap1.obsługa_wyboru(2, label1, CZAS_BOX, lista_dymkow, lista_pictureBoxow);
         }
 
         private void opcja1_Click(object sender, EventArgs e)
         {
-            wyłącz_panel(panel_wyboru1,panel_wyboru2,panel_wyboru3);
+            wyłącz_panel(panel_wyboru1,panel_wyboru2,panel_wyboru3, this);
             etap1.obsługa_wyboru(1, label1, CZAS_BOX, lista_dymkow, lista_pictureBoxow);
         }
 
         private void opcja3_Click(object sender, EventArgs e)
         {
-            wyłącz_panel(panel_wyboru1, panel_wyboru2, panel_wyboru3);
+            wyłącz_panel(panel_wyboru1, panel_wyboru2, panel_wyboru3, this);
             etap1.obsługa_wyboru(3, label1, CZAS_BOX, lista_dymkow, lista_pictureBoxow);
         }
 
@@ -141,6 +146,21 @@ namespace RKO_2020
         private void panel_głowny_MouseMove(object sender, MouseEventArgs e)
         {
             //label1.Text = e.X + ", " + e.Y;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

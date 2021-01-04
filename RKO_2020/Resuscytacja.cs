@@ -28,7 +28,7 @@ namespace RKO_2020
                 stopwatch.Start(); //stoper odpowiadający za liczenie delty pomiędzy kolejnymi wciśnięciami spacji
                 stopwatch2.Start(); //stoper odpowiadający za kontrolowanie czy gracz przekroczył interwał czasu
             }
-            if (czy_kliknięto_spacje)
+            if (!wciśnięty_przycisk)
             {
                 stopwatch.Stop(); //zatrzymanie stoperów
                 stopwatch2.Stop();
@@ -42,7 +42,7 @@ namespace RKO_2020
                 stopwatch2.Start();
                 
                 double delta = ts.TotalMilliseconds; //delta czasu od poprzedniego kliknięcia spacji
-              
+                wciśnięty_przycisk = true;
                 if (600 >= delta && delta >= 500 && Poziom_Życia != 100) // zwiększanie życia jezeli 0.6s>delta>0.5s
                 {
                     label.Text = "IDEALNIE";

@@ -77,5 +77,13 @@ namespace RKO_2020
                     break;
             }
         }
+        public void skonczyl_sie_czas(int ticks, Panel panel_koncowy)
+        {
+            if(ticks > 240000)
+            {
+
+                interfejs.wyswietl_panel(panel_koncowy, 4);
+            }
+        }
     }
 }

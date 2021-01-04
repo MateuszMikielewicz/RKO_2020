@@ -35,23 +35,33 @@ namespace RKO_2020
             instancja.Text = napis;
             instancja.ForeColor = kolor;
         }
-        static public void wyświetl_panel(System.Windows.Forms.Panel instancja, int nr_panelu)
+        static public void wyswietl_panel(System.Windows.Forms.Panel instancja, int nr_panelu)
         {
-            instancja.Show();
-            Pierwsza_pomoc.wybrany_panel = nr_panelu;
+            if (Pierwsza_pomoc.animacja == 0)
+            {
+                instancja.Enabled = true;
+                instancja.Show();
+                Pierwsza_pomoc.wybrany_panel = nr_panelu;
+            }
         }
-        static public void wyłącz_panel(System.Windows.Forms.Panel instancja1, System.Windows.Forms.Panel instancja2, System.Windows.Forms.Panel instancja3)
+        static public void wyłącz_panel(System.Windows.Forms.Panel instancja1, System.Windows.Forms.Panel instancja2, System.Windows.Forms.Panel instancja3, System.Windows.Forms.Form Form1 )
         {
             switch (Pierwsza_pomoc.wybrany_panel)
             {
                 case 1:
                     instancja1.Hide();
+                    Form1.Focus();
+                    instancja1.Enabled = false;
                     break;
                 case 2:
                     instancja2.Hide();
+                    Form1.Focus();   
+                    instancja2.Enabled = false;
                     break;
                 default:
                     instancja3.Hide();
+                    Form1.Focus();
+                    instancja3.Enabled = false;
                     break;
             }
         }
@@ -157,14 +167,17 @@ namespace RKO_2020
                 }
             }
         }
-        static public void rozpocznij_etap2(System.Windows.Forms.PictureBox instancja_pictureBox1, System.Windows.Forms.PictureBox instancja_pictureBox2, List<PictureBox> lista_pictureBoxow, System.Windows.Forms.Label label1, System.Windows.Forms.Label Poziom_Zycia)
+        static public void rozpocznij_etap2(System.Windows.Forms.PictureBox instancja_pictureBox1,
+        System.Windows.Forms.PictureBox instancja_pictureBox2, List<PictureBox> lista_pictureBoxow,
+        System.Windows.Forms.Label label1, System.Windows.Forms.Label Poziom_Zycia) //, List<Panel> lista_paneli_wyboru)
         {
             if (Pierwsza_pomoc.etap2_nierozpoczety == false && Resuscytacja.koniec_inicjalizacji == false)
             {
                 instancja_pictureBox1.Hide();
                 instancja_pictureBox2.Hide();
                 lista_pictureBoxow[0].Image = Properties.Resources.gotowy_do_ucisku;
-                label1.Text = "klikaj spacje, aby ucisnac";
+                lista_pictureBoxow[1].Enabled = false;
+                label1.Text="Kliknij spacje, aby ucisnac";
                 Poziom_Zycia.Visible = true;
                 Resuscytacja.koniec_inicjalizacji = true;
             }

@@ -1,4 +1,6 @@
-﻿namespace RKO_2020
+﻿using System.Windows.Forms;
+
+namespace RKO_2020
 {
     partial class Form1
     {
@@ -32,6 +34,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panelMENU = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.Poziom_Życia = new System.Windows.Forms.Label();
             this.CZAS_BOX = new System.Windows.Forms.Label();
@@ -66,6 +70,29 @@
             this.label5 = new System.Windows.Forms.Label();
             this.dymek_3 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.label11 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.label12 = new System.Windows.Forms.Label();
+            this.button8 = new System.Windows.Forms.Button();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
             this.panelMENU.SuspendLayout();
             this.panel_głowny.SuspendLayout();
             this.panel_wyboru3.SuspendLayout();
@@ -78,6 +105,9 @@
             this.dymek_1.SuspendLayout();
             this.dymek_2.SuspendLayout();
             this.dymek_3.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // timer1
@@ -89,11 +119,31 @@
             // panelMENU
             // 
             this.panelMENU.BackColor = System.Drawing.Color.SteelBlue;
+            this.panelMENU.Controls.Add(this.button4);
             this.panelMENU.Controls.Add(this.label1);
+            this.panelMENU.Controls.Add(this.button3);
             this.panelMENU.Controls.Add(this.Poziom_Życia);
             this.panelMENU.Controls.Add(this.CZAS_BOX);
             resources.ApplyResources(this.panelMENU, "panelMENU");
             this.panelMENU.Name = "panelMENU";
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Firebrick;
+            resources.ApplyResources(this.button3, "button3");
+            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button3.Name = "button3";
+            this.button3.TabStop = false;
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Firebrick;
+            resources.ApplyResources(this.button4, "button4");
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Name = "button4";
+            this.button4.TabStop = false;
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -136,8 +186,8 @@
             this.panel_głowny.BackgroundImage = global::RKO_2020.Properties.Resources.tło_gra_rko;
             resources.ApplyResources(this.panel_głowny, "panel_głowny");
             this.panel_głowny.Controls.Add(this.panel_wyboru3);
-            this.panel_głowny.Controls.Add(this.panel_wyboru2);
             this.panel_głowny.Controls.Add(this.obserwator_pictureBox);
+            this.panel_głowny.Controls.Add(this.panel_wyboru2);
             this.panel_głowny.Controls.Add(this.glowa_pictureBox);
             this.panel_głowny.Controls.Add(this.tułow_pictureBox);
             this.panel_głowny.Controls.Add(this.głowne_postaci_pictureBox);
@@ -373,10 +423,213 @@
             resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
             // 
+            // panel1
+            // 
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.label7);
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.panel1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.panel1.Name = "panel1";
+            // 
+            // label7
+            // 
+            resources.ApplyResources(this.label7, "label7");
+            this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label7.Name = "label7";
+            // 
+            // label9
+            // 
+            resources.ApplyResources(this.label9, "label9");
+            this.label9.ForeColor = System.Drawing.Color.DarkRed;
+            this.label9.Name = "label9";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Firebrick;
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Name = "button1";
+            this.button1.TabStop = false;
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Firebrick;
+            resources.ApplyResources(this.button2, "button2");
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.Name = "button2";
+            this.button2.TabStop = false;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // panel2
+            // 
+            resources.ApplyResources(this.panel2, "panel2");
+            this.panel2.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.radioButton2);
+            this.panel2.Controls.Add(this.radioButton1);
+            this.panel2.Controls.Add(this.label11);
+            this.panel2.Controls.Add(this.button7);
+            this.panel2.Controls.Add(this.label8);
+            this.panel2.Controls.Add(this.label10);
+            this.panel2.Controls.Add(this.button5);
+            this.panel2.Controls.Add(this.button6);
+            this.panel2.Cursor = System.Windows.Forms.Cursors.Default;
+            this.panel2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.panel2.Name = "panel2";
+            // 
+            // radioButton2
+            // 
+            resources.ApplyResources(this.radioButton2, "radioButton2");
+            this.radioButton2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            resources.ApplyResources(this.radioButton1, "radioButton1");
+            this.radioButton1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.TabStop = true;
+            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            // 
+            // label11
+            // 
+            resources.ApplyResources(this.label11, "label11");
+            this.label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label11.Name = "label11";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.Firebrick;
+            resources.ApplyResources(this.button7, "button7");
+            this.button7.ForeColor = System.Drawing.Color.White;
+            this.button7.Name = "button7";
+            this.button7.TabStop = false;
+            this.button7.UseVisualStyleBackColor = false;
+            // 
+            // label8
+            // 
+            resources.ApplyResources(this.label8, "label8");
+            this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label8.Name = "label8";
+            // 
+            // label10
+            // 
+            resources.ApplyResources(this.label10, "label10");
+            this.label10.ForeColor = System.Drawing.Color.LimeGreen;
+            this.label10.Name = "label10";
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Firebrick;
+            resources.ApplyResources(this.button5, "button5");
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Name = "button5";
+            this.button5.TabStop = false;
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.Firebrick;
+            resources.ApplyResources(this.button6, "button6");
+            this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button6.Name = "button6";
+            this.button6.TabStop = false;
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // panel3
+            // 
+            resources.ApplyResources(this.panel3, "panel3");
+            this.panel3.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.radioButton3);
+            this.panel3.Controls.Add(this.radioButton4);
+            this.panel3.Controls.Add(this.label12);
+            this.panel3.Controls.Add(this.button8);
+            this.panel3.Controls.Add(this.label13);
+            this.panel3.Controls.Add(this.label14);
+            this.panel3.Controls.Add(this.button9);
+            this.panel3.Controls.Add(this.button10);
+            this.panel3.Cursor = System.Windows.Forms.Cursors.Default;
+            this.panel3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.panel3.Name = "panel3";
+            // 
+            // radioButton3
+            // 
+            resources.ApplyResources(this.radioButton3, "radioButton3");
+            this.radioButton3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // radioButton4
+            // 
+            resources.ApplyResources(this.radioButton4, "radioButton4");
+            this.radioButton4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.TabStop = true;
+            this.radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // label12
+            // 
+            resources.ApplyResources(this.label12, "label12");
+            this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label12.Name = "label12";
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.Firebrick;
+            resources.ApplyResources(this.button8, "button8");
+            this.button8.ForeColor = System.Drawing.Color.White;
+            this.button8.Name = "button8";
+            this.button8.TabStop = false;
+            this.button8.UseVisualStyleBackColor = false;
+            // 
+            // label13
+            // 
+            resources.ApplyResources(this.label13, "label13");
+            this.label13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label13.Name = "label13";
+            // 
+            // label14
+            // 
+            resources.ApplyResources(this.label14, "label14");
+            this.label14.ForeColor = System.Drawing.Color.LimeGreen;
+            this.label14.Name = "label14";
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.Firebrick;
+            resources.ApplyResources(this.button9, "button9");
+            this.button9.ForeColor = System.Drawing.Color.White;
+            this.button9.Name = "button9";
+            this.button9.TabStop = false;
+            this.button9.UseVisualStyleBackColor = false;
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.Firebrick;
+            resources.ApplyResources(this.button10, "button10");
+            this.button10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button10.Name = "button10";
+            this.button10.TabStop = false;
+            this.button10.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.dymek_3);
             this.Controls.Add(this.dymek_2);
             this.Controls.Add(this.dymek_1);
@@ -409,6 +662,12 @@
             this.dymek_2.PerformLayout();
             this.dymek_3.ResumeLayout(false);
             this.dymek_3.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -451,6 +710,31 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel dymek_3;
         private System.Windows.Forms.Label label6;
+        private Button button4;
+        public Panel panel1;
+        private Label label9;
+        private Button button1;
+        private Button button2;
+        private Button button3;
+        private Label label7;
+        public Panel panel2;
+        private Label label11;
+        private Button button7;
+        private Label label8;
+        private Label label10;
+        private Button button5;
+        private Button button6;
+        private RadioButton radioButton2;
+        private RadioButton radioButton1;
+        public Panel panel3;
+        private RadioButton radioButton3;
+        private RadioButton radioButton4;
+        private Label label12;
+        private Button button8;
+        private Label label13;
+        private Label label14;
+        private Button button9;
+        private Button button10;
     }
 }
 
