@@ -11,6 +11,48 @@ namespace RKO_2020
 {
     public class interfejs
     {
+        static public void reset(List<Panel> lista_paneli_wyboru, List<PictureBox> lista_pictureBoxow, RadioButton radioButton_nie)
+        {
+            Pierwsza_pomoc.stan_postepu = 1;
+            Pierwsza_pomoc.etap2_nierozpoczety = true;
+            Pierwsza_pomoc.ticks = 0;
+
+
+            radioButton_nie.Checked = true;
+
+            lista_pictureBoxow[1].Enabled= true ;
+            lista_pictureBoxow[2].Show();
+            lista_pictureBoxow[3].Show();
+
+            lista_paneli_wyboru[3].Hide();
+            lista_paneli_wyboru[4].Hide();
+            lista_paneli_wyboru[5].Hide();
+
+            Pierwsza_pomoc.lista_obrazow[0]=Properties.Resources.pozycja_startowa;
+            Pierwsza_pomoc.lista_obrazow[1]=Properties.Resources.Przed_położeniem_głowy_zaznaczenie;
+            Pierwsza_pomoc.lista_obrazow[2]=Properties.Resources.pozycja_startowa_zaznaczenie_ciała;
+            Pierwsza_pomoc.lista_obrazow[3]=Properties.Resources.obserwator;
+            Pierwsza_pomoc.lista_obrazow[4]=Properties.Resources.obserwator_zaznaczony;
+
+            lista_pictureBoxow[0].Image = Pierwsza_pomoc.lista_obrazow[0];
+            lista_pictureBoxow[1].Image = Pierwsza_pomoc.lista_obrazow[3];
+        }
+        static public void inicjalizuj_etap1(List<Panel> lista_paneli_wyboru, List<PictureBox> lista_pictureBoxow, RadioButton radioButton_nie)
+        {
+            radioButton_nie.Checked = true;
+            //inicjalizacja niewidocznych przycisków(pictureboxów) na obiekcie picturebox
+            lista_pictureBoxow[2].Parent = lista_pictureBoxow[0];
+            lista_pictureBoxow[2].Location = new Point(78, 115);
+            lista_pictureBoxow[2].Show();
+            lista_pictureBoxow[3].Parent = lista_pictureBoxow[0];
+            lista_pictureBoxow[3].Location = new Point(0, 76);
+            lista_pictureBoxow[3].Show();
+
+            lista_paneli_wyboru[3].Location = new Point(62, 13);
+            lista_paneli_wyboru[4].Location = new Point(62, 13);
+            lista_paneli_wyboru[5].Location = new Point(62, 13);
+
+        }
         static public String Wyswietl_czas()
         {
             Pierwsza_pomoc.ticks++;
@@ -38,7 +80,7 @@ namespace RKO_2020
         static public void wyswietl_panel(System.Windows.Forms.Panel instancja, int nr_panelu)
         {
             if (Pierwsza_pomoc.animacja == 0)
-            {
+            { 
                 instancja.Enabled = true;
                 instancja.Show();
                 Pierwsza_pomoc.wybrany_panel = nr_panelu;
@@ -51,17 +93,14 @@ namespace RKO_2020
                 case 1:
                     instancja1.Hide();
                     Form1.Focus();
-                    instancja1.Enabled = false;
                     break;
                 case 2:
                     instancja2.Hide();
                     Form1.Focus();   
-                    instancja2.Enabled = false;
                     break;
                 default:
                     instancja3.Hide();
                     Form1.Focus();
-                    instancja3.Enabled = false;
                     break;
             }
         }
@@ -83,6 +122,7 @@ namespace RKO_2020
                 case 2:
                     Pierwsza_pomoc.animacja = 1;
                     lista_pictureBoxow[0].Image = Properties.Resources.skulony_bohater_pozycja_startowa;
+                    lista_dymkow[1].Show();
                     lista_dymkow[1].Location = new Point(271, 127);
                     Pierwsza_pomoc.stopwatch.Stop();
                     Pierwsza_pomoc.stopwatch.Reset();
@@ -94,9 +134,6 @@ namespace RKO_2020
                     Pierwsza_pomoc.stopwatch.Stop();
                     Pierwsza_pomoc.stopwatch.Reset();
                     Pierwsza_pomoc.stopwatch.Start();
-                    break;
-                default:
-                    
                     break;
             }
 
@@ -135,6 +172,7 @@ namespace RKO_2020
                 if (3000 > delta && delta > 1500)
                 {
                     lista_dymkow[1].Hide();
+                    lista_dymkow[0].Show();
                     lista_dymkow[0].Location= new Point(154,263);
                 }
                 else if (delta > 3000)
@@ -157,6 +195,7 @@ namespace RKO_2020
                 double delta = ts.TotalMilliseconds;
                 if (3000 > delta && delta > 1500)
                 {
+                    lista_dymkow[2].Show();
                     lista_dymkow[2].Location = new Point(271, 127);
                     instancja_pictureBox.Image = Properties.Resources.odchylona_głowa;
                 }
@@ -167,19 +206,18 @@ namespace RKO_2020
                 }
             }
         }
-        static public void rozpocznij_etap2(System.Windows.Forms.PictureBox instancja_pictureBox1,
-        System.Windows.Forms.PictureBox instancja_pictureBox2, List<PictureBox> lista_pictureBoxow,
-        System.Windows.Forms.Label label1, System.Windows.Forms.Label Poziom_Zycia) //, List<Panel> lista_paneli_wyboru)
+        static public void rozpocznij_etap2(List<PictureBox> lista_pictureBoxow,
+        System.Windows.Forms.Label label1, System.Windows.Forms.Label Poziom_Zycia, Panel panel_konca_etapu) //, List<Panel> lista_paneli_wyboru)
         {
-            if (Pierwsza_pomoc.etap2_nierozpoczety == false && Resuscytacja.koniec_inicjalizacji == false)
             {
-                instancja_pictureBox1.Hide();
-                instancja_pictureBox2.Hide();
+                Pierwsza_pomoc.etap2_nierozpoczety = false;
+                panel_konca_etapu.Hide();
+                lista_pictureBoxow[2].Hide();
+                lista_pictureBoxow[3].Hide();
                 lista_pictureBoxow[0].Image = Properties.Resources.gotowy_do_ucisku;
                 lista_pictureBoxow[1].Enabled = false;
                 label1.Text="Kliknij spacje, aby ucisnac";
                 Poziom_Zycia.Visible = true;
-                Resuscytacja.koniec_inicjalizacji = true;
             }
         }
     }

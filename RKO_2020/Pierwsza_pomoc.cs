@@ -17,6 +17,7 @@ namespace RKO_2020
         public Bitmap obraz_zaznaczonego_tułowia = Properties.Resources.pozycja_startowa_zaznaczenie_ciała;
         public Bitmap obraz_bazowy_obserwatora = Properties.Resources.obserwator;
         public Bitmap obraz_zaznaczonego_obserwatora = Properties.Resources.obserwator_zaznaczony;
+        static public List<Bitmap> lista_obrazow = new List<Bitmap>();
         static public Stopwatch stopwatch = new Stopwatch();
         static public bool wystapil_blad = false;
         static public bool etap2_nierozpoczety;
@@ -25,13 +26,19 @@ namespace RKO_2020
         static public int wybrany_panel;
         static public int ticks;
         static public int animacja = 0;
+
         public Pierwsza_pomoc()
         {
             stan_postepu = 1;
             etap2_nierozpoczety = true;
             ticks = 0;
+            lista_obrazow.Add(obraz_bazowy);
+            lista_obrazow.Add(obraz_zaznaczonej_głowy);
+            lista_obrazow.Add(obraz_zaznaczonego_tułowia);
+            lista_obrazow.Add(obraz_bazowy_obserwatora);
+            lista_obrazow.Add(obraz_zaznaczonego_obserwatora);
         }
-        public void obsługa_wyboru(int nr_opcji, System.Windows.Forms.Label instancja_tekstu, System.Windows.Forms.Label instancja_czasu, List<Panel> lista_dymkow, List<PictureBox> lista_pictureBoxow)
+        public void obsługa_wyboru(int nr_opcji, Label instancja_tekstu, Label instancja_czasu, List<Panel> lista_dymkow, List<PictureBox> lista_pictureBoxow, Panel instancja_panelu)
         {
             switch (nr_opcji)
             {
@@ -45,9 +52,9 @@ namespace RKO_2020
                     {
                         stan_postepu = 3;
                         interfejs.wyświetl_obraz(Properties.Resources.odchylona_głowa, lista_pictureBoxow[0]);
-                        obraz_bazowy = Properties.Resources.odchylona_głowa;
-                        obraz_zaznaczonej_głowy = Properties.Resources.odchylona_glowa_zanaczenie_glowy;
-                        obraz_zaznaczonego_tułowia = Properties.Resources.odchylona_glowa_zanaczenie_tulowia;
+                        lista_obrazow[0] = Properties.Resources.odchylona_głowa;
+                        lista_obrazow[1] = Properties.Resources.odchylona_glowa_zanaczenie_glowy;
+                        lista_obrazow[2] = Properties.Resources.odchylona_glowa_zanaczenie_tulowia;
                     }
                     else if (wybrany_panel == 3 && stan_postepu == 4 && fasolka_oddycha == true) stan_postepu = 5;
                     else interfejs.obsługa_błędu_użytkownika(instancja_tekstu, instancja_czasu);
@@ -62,7 +69,7 @@ namespace RKO_2020
                     {
                         stan_postepu = 5;
                         interfejs.wyświetl_obraz(Properties.Resources.obserwator_z_telefonem, lista_pictureBoxow[1]);
-                        obraz_bazowy_obserwatora = Properties.Resources.obserwator_z_telefonem;
+                        lista_obrazow[3] = Properties.Resources.obserwator_z_telefonem;
                     }
                     else if (wybrany_panel == 1 && stan_postepu == 5 && fasolka_oddycha == true) stan_postepu = 6;
                     else interfejs.obsługa_błędu_użytkownika(instancja_tekstu, instancja_czasu);
@@ -71,18 +78,17 @@ namespace RKO_2020
                     if (wybrany_panel == 1 && stan_postepu == 5 && fasolka_oddycha == false)
                     {
                         stan_postepu = 6;
-                        etap2_nierozpoczety = false;
+                        interfejs.wyswietl_panel(instancja_panelu,5);
                     }
                     else interfejs.obsługa_błędu_użytkownika(instancja_tekstu, instancja_czasu);
                     break;
             }
         }
-        public void skonczyl_sie_czas(int ticks, Panel panel_koncowy)
+        public void skonczyl_sie_czas(Panel panel_czas_minal)
         {
-            if(ticks > 240000)
+            if(ticks > 120)
             {
-
-                interfejs.wyswietl_panel(panel_koncowy, 4);
+                interfejs.wyswietl_panel(panel_czas_minal, 4);
             }
         }
     }

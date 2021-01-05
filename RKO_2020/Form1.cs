@@ -32,17 +32,14 @@ namespace RKO_2020
         {
             etap2.Aktualizacja_Życia_Przycisk(label1, false);
             Poziom_Życia.Text=etap2.Wyświetl_Życie();
-            animacje(label1,CZAS_BOX, głowne_postaci_pictureBox, lista_dymkow);
-            rozpocznij_etap2(glowa_pictureBox, tułow_pictureBox, lista_pictureBoxow,label1,Poziom_Życia);
+            animacje(label1, CZAS_BOX, głowne_postaci_pictureBox, lista_dymkow);
+            etap1.skonczyl_sie_czas(panel_czas_minal);
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
            //inicjalizacja niewidocznych przycisków(pictureboxów) na obiekcie picturebox
-            tułow_pictureBox.Parent = głowne_postaci_pictureBox;
-            tułow_pictureBox.Location = new Point(78, 115);
-            glowa_pictureBox.Parent = głowne_postaci_pictureBox;
-            glowa_pictureBox.Location = new Point(0, 76);
+           
 
             lista_dymkow.Add(dymek_1);
             lista_dymkow.Add(dymek_2);
@@ -50,10 +47,17 @@ namespace RKO_2020
 
             lista_pictureBoxow.Add(głowne_postaci_pictureBox);
             lista_pictureBoxow.Add(obserwator_pictureBox);
+            lista_pictureBoxow.Add(tułow_pictureBox);
+            lista_pictureBoxow.Add(glowa_pictureBox);
 
             lista_paneli_wyboru.Add(panel_wyboru1);
             lista_paneli_wyboru.Add(panel_wyboru2);
             lista_paneli_wyboru.Add(panel_wyboru3);
+            lista_paneli_wyboru.Add(panel_czas_minal);
+            lista_paneli_wyboru.Add(panel_konca_etapu);
+            lista_paneli_wyboru.Add(panel_koncowy);
+
+            inicjalizuj_etap1(lista_paneli_wyboru, lista_pictureBoxow, radioButton_nie);
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)  ///wciskanie przycisku spacji
@@ -78,12 +82,12 @@ namespace RKO_2020
 
         private void tułow_pictureBox_MouseEnter(object sender, EventArgs e)
         {
-            wyświetl_obraz(etap1.obraz_zaznaczonego_tułowia, głowne_postaci_pictureBox);
+            wyświetl_obraz(Pierwsza_pomoc.lista_obrazow[2], głowne_postaci_pictureBox);
         }
 
         private void tułow_pictureBox_MouseLeave(object sender, EventArgs e)
         {
-            wyświetl_obraz(etap1.obraz_bazowy, głowne_postaci_pictureBox);
+            wyświetl_obraz(Pierwsza_pomoc.lista_obrazow[0], głowne_postaci_pictureBox);
         }
         
         private void tułow_pictureBox_MouseClick(object sender, MouseEventArgs e)
@@ -94,12 +98,12 @@ namespace RKO_2020
 
         private void glowa_pictureBox_MouseEnter(object sender, EventArgs e)
         {
-            wyświetl_obraz(etap1.obraz_zaznaczonej_głowy, głowne_postaci_pictureBox);
+            wyświetl_obraz(Pierwsza_pomoc.lista_obrazow[1], głowne_postaci_pictureBox);
         }
 
         private void glowa_pictureBox_MouseLeave(object sender, EventArgs e)
         {
-            wyświetl_obraz(etap1.obraz_bazowy, głowne_postaci_pictureBox);
+            wyświetl_obraz(Pierwsza_pomoc.lista_obrazow[0], głowne_postaci_pictureBox);
         }
         private void glowa_pictureBox_MouseClick(object sender, MouseEventArgs e)
         {
@@ -108,12 +112,12 @@ namespace RKO_2020
         }
         private void obserwator_pictureBox_MouseEnter(object sender, EventArgs e)
         {
-            wyświetl_obraz(etap1.obraz_zaznaczonego_obserwatora, obserwator_pictureBox);
+            wyświetl_obraz(Pierwsza_pomoc.lista_obrazow[4], obserwator_pictureBox);
         }
 
         private void obserwator_pictureBox_MouseLeave(object sender, EventArgs e)
         {
-            wyświetl_obraz(etap1.obraz_bazowy_obserwatora, obserwator_pictureBox);
+            wyświetl_obraz(Pierwsza_pomoc.lista_obrazow[3], obserwator_pictureBox);
         }
         private void obserwator_pictureBox_MouseClick(object sender, MouseEventArgs e)
         {
@@ -123,24 +127,19 @@ namespace RKO_2020
         private void opcja2_Click(object sender, EventArgs e)
         {
             wyłącz_panel(panel_wyboru1, panel_wyboru2, panel_wyboru3, this);
-            etap1.obsługa_wyboru(2, label1, CZAS_BOX, lista_dymkow, lista_pictureBoxow);
+            etap1.obsługa_wyboru(2, label1, CZAS_BOX, lista_dymkow, lista_pictureBoxow, panel_konca_etapu);
         }
 
         private void opcja1_Click(object sender, EventArgs e)
         {
             wyłącz_panel(panel_wyboru1,panel_wyboru2,panel_wyboru3, this);
-            etap1.obsługa_wyboru(1, label1, CZAS_BOX, lista_dymkow, lista_pictureBoxow);
+            etap1.obsługa_wyboru(1, label1, CZAS_BOX, lista_dymkow, lista_pictureBoxow, panel_konca_etapu);
         }
 
         private void opcja3_Click(object sender, EventArgs e)
         {
             wyłącz_panel(panel_wyboru1, panel_wyboru2, panel_wyboru3, this);
-            etap1.obsługa_wyboru(3, label1, CZAS_BOX, lista_dymkow, lista_pictureBoxow);
-        }
-
-        private void Form1_MouseMove(object sender, MouseEventArgs e)
-        {
-           // label1.Text = e.X + ", " + e.Y;
+            etap1.obsługa_wyboru(3, label1, CZAS_BOX, lista_dymkow, lista_pictureBoxow, panel_konca_etapu);
         }
 
         private void panel_głowny_MouseMove(object sender, MouseEventArgs e)
@@ -148,19 +147,20 @@ namespace RKO_2020
             //label1.Text = e.X + ", " + e.Y;
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void reset_button_Click(object sender, EventArgs e)
         {
-
+            wyłącz_panel(panel_wyboru1, panel_wyboru2, panel_wyboru3, this);
+            reset(lista_paneli_wyboru, lista_pictureBoxow, radioButton_nie);
         }
 
-        private void label11_Click(object sender, EventArgs e)
+        private void ZAKONCZ_GRE_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        private void DALEJ_Click(object sender, EventArgs e)
         {
-
+            rozpocznij_etap2(lista_pictureBoxow, label1, Poziom_Życia, panel_konca_etapu);
         }
     }
 }

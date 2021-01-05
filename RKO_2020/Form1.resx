@@ -120,16 +120,16 @@
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>14, 22</value>
   </metadata>
-  <data name="&gt;&gt;button4.Name" xml:space="preserve">
-    <value>button4</value>
+  <data name="&gt;&gt;RESET.Name" xml:space="preserve">
+    <value>RESET</value>
   </data>
-  <data name="&gt;&gt;button4.Type" xml:space="preserve">
+  <data name="&gt;&gt;RESET.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
+  <data name="&gt;&gt;RESET.Parent" xml:space="preserve">
     <value>panelMENU</value>
   </data>
-  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;RESET.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
@@ -144,16 +144,16 @@
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;button3.Name" xml:space="preserve">
-    <value>button3</value>
+  <data name="&gt;&gt;ZAKONCZ_GRE.Name" xml:space="preserve">
+    <value>ZAKONCZ_GRE</value>
   </data>
-  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+  <data name="&gt;&gt;ZAKONCZ_GRE.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;ZAKONCZ_GRE.Parent" xml:space="preserve">
     <value>panelMENU</value>
   </data>
-  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;ZAKONCZ_GRE.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="&gt;&gt;Poziom_Życia.Name" xml:space="preserve">
@@ -204,70 +204,37 @@
     <value>6</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="button3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="RESET.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="RESET.Font" type="System.Drawing.Font, System.Drawing">
     <value>Impact, 14pt</value>
   </data>
-  <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="RESET.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>862, 37</value>
-  </data>
-  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 63</value>
-  </data>
-  <data name="button3.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="button3.Text" xml:space="preserve">
-    <value>ZAKONCZ</value>
-  </data>
-  <data name="&gt;&gt;button3.Name" xml:space="preserve">
-    <value>button3</value>
-  </data>
-  <data name="&gt;&gt;button3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
-    <value>panelMENU</value>
-  </data>
-  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="button4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="button4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Impact, 14pt</value>
-  </data>
-  <data name="button4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="RESET.Location" type="System.Drawing.Point, System.Drawing">
     <value>723, 38</value>
   </data>
-  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="RESET.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 61</value>
   </data>
-  <data name="button4.TabIndex" type="System.Int32, mscorlib">
+  <data name="RESET.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="button4.Text" xml:space="preserve">
+  <data name="RESET.Text" xml:space="preserve">
     <value>RESET</value>
   </data>
-  <data name="&gt;&gt;button4.Name" xml:space="preserve">
-    <value>button4</value>
+  <data name="&gt;&gt;RESET.Name" xml:space="preserve">
+    <value>RESET</value>
   </data>
-  <data name="&gt;&gt;button4.Type" xml:space="preserve">
+  <data name="&gt;&gt;RESET.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
+  <data name="&gt;&gt;RESET.Parent" xml:space="preserve">
     <value>panelMENU</value>
   </data>
-  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;RESET.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
@@ -302,6 +269,39 @@
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="ZAKONCZ_GRE.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ZAKONCZ_GRE.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14pt</value>
+  </data>
+  <data name="ZAKONCZ_GRE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ZAKONCZ_GRE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>862, 37</value>
+  </data>
+  <data name="ZAKONCZ_GRE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 63</value>
+  </data>
+  <data name="ZAKONCZ_GRE.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ZAKONCZ_GRE.Text" xml:space="preserve">
+    <value>ZAKONCZ</value>
+  </data>
+  <data name="&gt;&gt;ZAKONCZ_GRE.Name" xml:space="preserve">
+    <value>ZAKONCZ_GRE</value>
+  </data>
+  <data name="&gt;&gt;ZAKONCZ_GRE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ZAKONCZ_GRE.Parent" xml:space="preserve">
+    <value>panelMENU</value>
+  </data>
+  <data name="&gt;&gt;ZAKONCZ_GRE.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="Poziom_Życia.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -436,6 +436,111 @@
   <data name="panel_głowny.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
+  <data name="&gt;&gt;panel_wyboru3.Name" xml:space="preserve">
+    <value>panel_wyboru3</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru3.Parent" xml:space="preserve">
+    <value>panel_głowny</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;obserwator_pictureBox.Name" xml:space="preserve">
+    <value>obserwator_pictureBox</value>
+  </data>
+  <data name="&gt;&gt;obserwator_pictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;obserwator_pictureBox.Parent" xml:space="preserve">
+    <value>panel_głowny</value>
+  </data>
+  <data name="&gt;&gt;obserwator_pictureBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru2.Name" xml:space="preserve">
+    <value>panel_wyboru2</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru2.Parent" xml:space="preserve">
+    <value>panel_głowny</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;glowa_pictureBox.Name" xml:space="preserve">
+    <value>glowa_pictureBox</value>
+  </data>
+  <data name="&gt;&gt;glowa_pictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;glowa_pictureBox.Parent" xml:space="preserve">
+    <value>panel_głowny</value>
+  </data>
+  <data name="&gt;&gt;glowa_pictureBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tułow_pictureBox.Name" xml:space="preserve">
+    <value>tułow_pictureBox</value>
+  </data>
+  <data name="&gt;&gt;tułow_pictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tułow_pictureBox.Parent" xml:space="preserve">
+    <value>panel_głowny</value>
+  </data>
+  <data name="&gt;&gt;tułow_pictureBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;głowne_postaci_pictureBox.Name" xml:space="preserve">
+    <value>głowne_postaci_pictureBox</value>
+  </data>
+  <data name="&gt;&gt;głowne_postaci_pictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;głowne_postaci_pictureBox.Parent" xml:space="preserve">
+    <value>panel_głowny</value>
+  </data>
+  <data name="&gt;&gt;głowne_postaci_pictureBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru1.Name" xml:space="preserve">
+    <value>panel_wyboru1</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru1.Parent" xml:space="preserve">
+    <value>panel_głowny</value>
+  </data>
+  <data name="&gt;&gt;panel_wyboru1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="panel_głowny.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="panel_głowny.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 580</value>
+  </data>
+  <data name="panel_głowny.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel_głowny.Name" xml:space="preserve">
+    <value>panel_głowny</value>
+  </data>
+  <data name="&gt;&gt;panel_głowny.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_głowny.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel_głowny.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
   <data name="panel_wyboru3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -510,6 +615,140 @@
   </data>
   <data name="&gt;&gt;panel_wyboru3.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="opcja2_label_3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="opcja2_label_3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14pt</value>
+  </data>
+  <data name="opcja2_label_3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opcja2_label_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 98</value>
+  </data>
+  <data name="opcja2_label_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>536, 70</value>
+  </data>
+  <data name="opcja2_label_3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="opcja2_label_3.Text" xml:space="preserve">
+    <value>Poproś o wezwanie pogotowia i każ przekazać,
+że poszkodowany nie oddycha</value>
+  </data>
+  <data name="&gt;&gt;opcja2_label_3.Name" xml:space="preserve">
+    <value>opcja2_label_3</value>
+  </data>
+  <data name="&gt;&gt;opcja2_label_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;opcja2_label_3.Parent" xml:space="preserve">
+    <value>panel_wyboru3</value>
+  </data>
+  <data name="&gt;&gt;opcja2_label_3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="opcja1_label_3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="opcja1_label_3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14pt</value>
+  </data>
+  <data name="opcja1_label_3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opcja1_label_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 9</value>
+  </data>
+  <data name="opcja1_label_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>574, 70</value>
+  </data>
+  <data name="opcja1_label_3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="opcja1_label_3.Text" xml:space="preserve">
+    <value>Poproś o wezwanie pogotowia i każ przekazać,
+że poszkodowany jest nieprzytomny, ale oddycha</value>
+  </data>
+  <data name="&gt;&gt;opcja1_label_3.Name" xml:space="preserve">
+    <value>opcja1_label_3</value>
+  </data>
+  <data name="&gt;&gt;opcja1_label_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;opcja1_label_3.Parent" xml:space="preserve">
+    <value>panel_wyboru3</value>
+  </data>
+  <data name="&gt;&gt;opcja1_label_3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="opcja1_3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="opcja1_3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14pt</value>
+  </data>
+  <data name="opcja1_3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opcja1_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 18</value>
+  </data>
+  <data name="opcja1_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 61</value>
+  </data>
+  <data name="opcja1_3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="opcja1_3.Text" xml:space="preserve">
+    <value>1. opcja</value>
+  </data>
+  <data name="&gt;&gt;opcja1_3.Name" xml:space="preserve">
+    <value>opcja1_3</value>
+  </data>
+  <data name="&gt;&gt;opcja1_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;opcja1_3.Parent" xml:space="preserve">
+    <value>panel_wyboru3</value>
+  </data>
+  <data name="&gt;&gt;opcja1_3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="opcja2_3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="opcja2_3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14pt</value>
+  </data>
+  <data name="opcja2_3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opcja2_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 98</value>
+  </data>
+  <data name="opcja2_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 63</value>
+  </data>
+  <data name="opcja2_3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="opcja2_3.Text" xml:space="preserve">
+    <value>2. opcja</value>
+  </data>
+  <data name="&gt;&gt;opcja2_3.Name" xml:space="preserve">
+    <value>opcja2_3</value>
+  </data>
+  <data name="&gt;&gt;opcja2_3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;opcja2_3.Parent" xml:space="preserve">
+    <value>panel_wyboru3</value>
+  </data>
+  <data name="&gt;&gt;opcja2_3.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="obserwator_pictureBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -615,6 +854,139 @@
   </data>
   <data name="&gt;&gt;panel_wyboru2.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="opcja2_label_2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="opcja2_label_2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14pt</value>
+  </data>
+  <data name="opcja2_label_2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opcja2_label_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 98</value>
+  </data>
+  <data name="opcja2_label_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>403, 70</value>
+  </data>
+  <data name="opcja2_label_2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="opcja2_label_2.Text" xml:space="preserve">
+    <value>Nachyl się nad poszkodowanym
+i poszukaj prawidłowego oddechu</value>
+  </data>
+  <data name="&gt;&gt;opcja2_label_2.Name" xml:space="preserve">
+    <value>opcja2_label_2</value>
+  </data>
+  <data name="&gt;&gt;opcja2_label_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;opcja2_label_2.Parent" xml:space="preserve">
+    <value>panel_wyboru2</value>
+  </data>
+  <data name="&gt;&gt;opcja2_label_2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="opcja1_label_2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="opcja1_label_2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14pt</value>
+  </data>
+  <data name="opcja1_label_2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opcja1_label_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 31</value>
+  </data>
+  <data name="opcja1_label_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>313, 35</value>
+  </data>
+  <data name="opcja1_label_2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="opcja1_label_2.Text" xml:space="preserve">
+    <value>Udrożnij drogi oddechowe</value>
+  </data>
+  <data name="&gt;&gt;opcja1_label_2.Name" xml:space="preserve">
+    <value>opcja1_label_2</value>
+  </data>
+  <data name="&gt;&gt;opcja1_label_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;opcja1_label_2.Parent" xml:space="preserve">
+    <value>panel_wyboru2</value>
+  </data>
+  <data name="&gt;&gt;opcja1_label_2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="opcja1_2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="opcja1_2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14pt</value>
+  </data>
+  <data name="opcja1_2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opcja1_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 18</value>
+  </data>
+  <data name="opcja1_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 61</value>
+  </data>
+  <data name="opcja1_2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="opcja1_2.Text" xml:space="preserve">
+    <value>1. opcja</value>
+  </data>
+  <data name="&gt;&gt;opcja1_2.Name" xml:space="preserve">
+    <value>opcja1_2</value>
+  </data>
+  <data name="&gt;&gt;opcja1_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;opcja1_2.Parent" xml:space="preserve">
+    <value>panel_wyboru2</value>
+  </data>
+  <data name="&gt;&gt;opcja1_2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="opcja2_2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="opcja2_2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Impact, 14pt</value>
+  </data>
+  <data name="opcja2_2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="opcja2_2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 98</value>
+  </data>
+  <data name="opcja2_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 63</value>
+  </data>
+  <data name="opcja2_2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="opcja2_2.Text" xml:space="preserve">
+    <value>2. opcja</value>
+  </data>
+  <data name="&gt;&gt;opcja2_2.Name" xml:space="preserve">
+    <value>opcja2_2</value>
+  </data>
+  <data name="&gt;&gt;opcja2_2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;opcja2_2.Parent" xml:space="preserve">
+    <value>panel_wyboru2</value>
+  </data>
+  <data name="&gt;&gt;opcja2_2.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="glowa_pictureBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -798,294 +1170,6 @@
   </data>
   <data name="&gt;&gt;panel_wyboru1.ZOrder" xml:space="preserve">
     <value>6</value>
-  </data>
-  <data name="panel_głowny.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 2</value>
-  </data>
-  <data name="panel_głowny.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1000, 580</value>
-  </data>
-  <data name="panel_głowny.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel_głowny.Name" xml:space="preserve">
-    <value>panel_głowny</value>
-  </data>
-  <data name="&gt;&gt;panel_głowny.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_głowny.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel_głowny.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="opcja2_label_3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="opcja2_label_3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Impact, 14pt</value>
-  </data>
-  <data name="opcja2_label_3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="opcja2_label_3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>179, 98</value>
-  </data>
-  <data name="opcja2_label_3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>536, 70</value>
-  </data>
-  <data name="opcja2_label_3.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="opcja2_label_3.Text" xml:space="preserve">
-    <value>Poproś o wezwanie pogotowia i każ przekazać,
-że poszkodowany nie oddycha</value>
-  </data>
-  <data name="&gt;&gt;opcja2_label_3.Name" xml:space="preserve">
-    <value>opcja2_label_3</value>
-  </data>
-  <data name="&gt;&gt;opcja2_label_3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;opcja2_label_3.Parent" xml:space="preserve">
-    <value>panel_wyboru3</value>
-  </data>
-  <data name="&gt;&gt;opcja2_label_3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="opcja1_label_3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="opcja1_label_3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Impact, 14pt</value>
-  </data>
-  <data name="opcja1_label_3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="opcja1_label_3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>179, 9</value>
-  </data>
-  <data name="opcja1_label_3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>574, 70</value>
-  </data>
-  <data name="opcja1_label_3.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="opcja1_label_3.Text" xml:space="preserve">
-    <value>Poproś o wezwanie pogotowia i każ przekazać,
-że poszkodowany jest nieprzytomny, ale oddycha</value>
-  </data>
-  <data name="&gt;&gt;opcja1_label_3.Name" xml:space="preserve">
-    <value>opcja1_label_3</value>
-  </data>
-  <data name="&gt;&gt;opcja1_label_3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;opcja1_label_3.Parent" xml:space="preserve">
-    <value>panel_wyboru3</value>
-  </data>
-  <data name="&gt;&gt;opcja1_label_3.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="opcja1_3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="opcja1_3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Impact, 14pt</value>
-  </data>
-  <data name="opcja1_3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="opcja1_3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>27, 18</value>
-  </data>
-  <data name="opcja1_3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 61</value>
-  </data>
-  <data name="opcja1_3.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="opcja1_3.Text" xml:space="preserve">
-    <value>1. opcja</value>
-  </data>
-  <data name="&gt;&gt;opcja1_3.Name" xml:space="preserve">
-    <value>opcja1_3</value>
-  </data>
-  <data name="&gt;&gt;opcja1_3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;opcja1_3.Parent" xml:space="preserve">
-    <value>panel_wyboru3</value>
-  </data>
-  <data name="&gt;&gt;opcja1_3.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="opcja2_3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="opcja2_3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Impact, 14pt</value>
-  </data>
-  <data name="opcja2_3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="opcja2_3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>27, 98</value>
-  </data>
-  <data name="opcja2_3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 63</value>
-  </data>
-  <data name="opcja2_3.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="opcja2_3.Text" xml:space="preserve">
-    <value>2. opcja</value>
-  </data>
-  <data name="&gt;&gt;opcja2_3.Name" xml:space="preserve">
-    <value>opcja2_3</value>
-  </data>
-  <data name="&gt;&gt;opcja2_3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;opcja2_3.Parent" xml:space="preserve">
-    <value>panel_wyboru3</value>
-  </data>
-  <data name="&gt;&gt;opcja2_3.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="opcja2_label_2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="opcja2_label_2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Impact, 14pt</value>
-  </data>
-  <data name="opcja2_label_2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="opcja2_label_2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>179, 98</value>
-  </data>
-  <data name="opcja2_label_2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>403, 70</value>
-  </data>
-  <data name="opcja2_label_2.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="opcja2_label_2.Text" xml:space="preserve">
-    <value>Nachyl się nad poszkodowanym
-i poszukaj prawidłowego oddechu</value>
-  </data>
-  <data name="&gt;&gt;opcja2_label_2.Name" xml:space="preserve">
-    <value>opcja2_label_2</value>
-  </data>
-  <data name="&gt;&gt;opcja2_label_2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;opcja2_label_2.Parent" xml:space="preserve">
-    <value>panel_wyboru2</value>
-  </data>
-  <data name="&gt;&gt;opcja2_label_2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="opcja1_label_2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="opcja1_label_2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Impact, 14pt</value>
-  </data>
-  <data name="opcja1_label_2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="opcja1_label_2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>179, 31</value>
-  </data>
-  <data name="opcja1_label_2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>313, 35</value>
-  </data>
-  <data name="opcja1_label_2.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="opcja1_label_2.Text" xml:space="preserve">
-    <value>Udrożnij drogi oddechowe</value>
-  </data>
-  <data name="&gt;&gt;opcja1_label_2.Name" xml:space="preserve">
-    <value>opcja1_label_2</value>
-  </data>
-  <data name="&gt;&gt;opcja1_label_2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;opcja1_label_2.Parent" xml:space="preserve">
-    <value>panel_wyboru2</value>
-  </data>
-  <data name="&gt;&gt;opcja1_label_2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="opcja1_2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="opcja1_2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Impact, 14pt</value>
-  </data>
-  <data name="opcja1_2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="opcja1_2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>27, 18</value>
-  </data>
-  <data name="opcja1_2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 61</value>
-  </data>
-  <data name="opcja1_2.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="opcja1_2.Text" xml:space="preserve">
-    <value>1. opcja</value>
-  </data>
-  <data name="&gt;&gt;opcja1_2.Name" xml:space="preserve">
-    <value>opcja1_2</value>
-  </data>
-  <data name="&gt;&gt;opcja1_2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;opcja1_2.Parent" xml:space="preserve">
-    <value>panel_wyboru2</value>
-  </data>
-  <data name="&gt;&gt;opcja1_2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="opcja2_2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="opcja2_2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Impact, 14pt</value>
-  </data>
-  <data name="opcja2_2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="opcja2_2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>27, 98</value>
-  </data>
-  <data name="opcja2_2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 63</value>
-  </data>
-  <data name="opcja2_2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="opcja2_2.Text" xml:space="preserve">
-    <value>2. opcja</value>
-  </data>
-  <data name="&gt;&gt;opcja2_2.Name" xml:space="preserve">
-    <value>opcja2_2</value>
-  </data>
-  <data name="&gt;&gt;opcja2_2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;opcja2_2.Parent" xml:space="preserve">
-    <value>panel_wyboru2</value>
-  </data>
-  <data name="&gt;&gt;opcja2_2.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="opcja3_label_1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1482,7 +1566,7 @@ mnie slyszy?</value>
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="panel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="panel_czas_minal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
   <data name="&gt;&gt;label7.Name" xml:space="preserve">
@@ -1492,7 +1576,7 @@ mnie slyszy?</value>
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label7.Parent" xml:space="preserve">
-    <value>panel1</value>
+    <value>panel_czas_minal</value>
   </data>
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -1504,21 +1588,21 @@ mnie slyszy?</value>
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label9.Parent" xml:space="preserve">
-    <value>panel1</value>
+    <value>panel_czas_minal</value>
   </data>
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
+  <data name="&gt;&gt;button.Name" xml:space="preserve">
+    <value>button</value>
   </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+  <data name="&gt;&gt;button.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>panel1</value>
+  <data name="&gt;&gt;button.Parent" xml:space="preserve">
+    <value>panel_czas_minal</value>
   </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;button.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="&gt;&gt;button2.Name" xml:space="preserve">
@@ -1528,33 +1612,33 @@ mnie slyszy?</value>
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>panel1</value>
+    <value>panel_czas_minal</value>
   </data>
   <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1754, 187</value>
+  <data name="panel_czas_minal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1075, 21</value>
   </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="panel_czas_minal.Size" type="System.Drawing.Size, System.Drawing">
     <value>817, 266</value>
   </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+  <data name="panel_czas_minal.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="panel1.Visible" type="System.Boolean, mscorlib">
+  <data name="panel_czas_minal.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
+  <data name="&gt;&gt;panel_czas_minal.Name" xml:space="preserve">
+    <value>panel_czas_minal</value>
   </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+  <data name="&gt;&gt;panel_czas_minal.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panel_czas_minal.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;panel_czas_minal.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
@@ -1586,7 +1670,7 @@ mnie slyszy?</value>
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label7.Parent" xml:space="preserve">
-    <value>panel1</value>
+    <value>panel_czas_minal</value>
   </data>
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -1619,42 +1703,42 @@ mnie slyszy?</value>
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label9.Parent" xml:space="preserve">
-    <value>panel1</value>
+    <value>panel_czas_minal</value>
   </data>
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="button.Font" type="System.Drawing.Font, System.Drawing">
     <value>Impact, 14pt</value>
   </data>
-  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="button.Location" type="System.Drawing.Point, System.Drawing">
     <value>27, 46</value>
   </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="button.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 61</value>
   </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+  <data name="button.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="button1.Text" xml:space="preserve">
+  <data name="button.Text" xml:space="preserve">
     <value>RESET</value>
   </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
+  <data name="&gt;&gt;button.Name" xml:space="preserve">
+    <value>button</value>
   </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+  <data name="&gt;&gt;button.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>panel1</value>
+  <data name="&gt;&gt;button.Parent" xml:space="preserve">
+    <value>panel_czas_minal</value>
   </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;button.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
@@ -1685,130 +1769,13 @@ mnie slyszy?</value>
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>panel1</value>
+    <value>panel_czas_minal</value>
   </data>
   <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="panel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="panel_konca_etapu.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
-  </data>
-  <data name="&gt;&gt;radioButton2.Name" xml:space="preserve">
-    <value>radioButton2</value>
-  </data>
-  <data name="&gt;&gt;radioButton2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton2.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;radioButton2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;radioButton1.Name" xml:space="preserve">
-    <value>radioButton1</value>
-  </data>
-  <data name="&gt;&gt;radioButton1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton1.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;radioButton1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;label11.Name" xml:space="preserve">
-    <value>label11</value>
-  </data>
-  <data name="&gt;&gt;label11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;button7.Name" xml:space="preserve">
-    <value>button7</value>
-  </data>
-  <data name="&gt;&gt;button7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button7.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;button7.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;label8.Name" xml:space="preserve">
-    <value>label8</value>
-  </data>
-  <data name="&gt;&gt;label8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;label10.Name" xml:space="preserve">
-    <value>label10</value>
-  </data>
-  <data name="&gt;&gt;label10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;button5.Name" xml:space="preserve">
-    <value>button5</value>
-  </data>
-  <data name="&gt;&gt;button5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button5.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;button6.Name" xml:space="preserve">
-    <value>button6</value>
-  </data>
-  <data name="&gt;&gt;button6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button6.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;button6.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1754, 459</value>
-  </data>
-  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>817, 266</value>
-  </data>
-  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="radioButton2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1823,7 +1790,7 @@ mnie slyszy?</value>
     <value>73, 33</value>
   </data>
   <data name="radioButton2.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+    <value>0</value>
   </data>
   <data name="radioButton2.Text" xml:space="preserve">
     <value>TAK</value>
@@ -1835,39 +1802,39 @@ mnie slyszy?</value>
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;radioButton2.Parent" xml:space="preserve">
-    <value>panel2</value>
+    <value>panel_konca_etapu</value>
   </data>
   <data name="&gt;&gt;radioButton2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="radioButton1.AutoSize" type="System.Boolean, mscorlib">
+  <data name="radioButton_nie.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="radioButton1.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="radioButton_nie.Font" type="System.Drawing.Font, System.Drawing">
     <value>Impact, 12pt</value>
   </data>
-  <data name="radioButton1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="radioButton_nie.Location" type="System.Drawing.Point, System.Drawing">
     <value>482, 208</value>
   </data>
-  <data name="radioButton1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="radioButton_nie.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 33</value>
   </data>
-  <data name="radioButton1.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="radioButton_nie.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="radioButton1.Text" xml:space="preserve">
+  <data name="radioButton_nie.Text" xml:space="preserve">
     <value>NIE</value>
   </data>
-  <data name="&gt;&gt;radioButton1.Name" xml:space="preserve">
-    <value>radioButton1</value>
+  <data name="&gt;&gt;radioButton_nie.Name" xml:space="preserve">
+    <value>radioButton_nie</value>
   </data>
-  <data name="&gt;&gt;radioButton1.Type" xml:space="preserve">
+  <data name="&gt;&gt;radioButton_nie.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;radioButton1.Parent" xml:space="preserve">
-    <value>panel2</value>
+  <data name="&gt;&gt;radioButton_nie.Parent" xml:space="preserve">
+    <value>panel_konca_etapu</value>
   </data>
-  <data name="&gt;&gt;radioButton1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;radioButton_nie.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="label11.AutoSize" type="System.Boolean, mscorlib">
@@ -1900,42 +1867,42 @@ mnie slyszy?</value>
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label11.Parent" xml:space="preserve">
-    <value>panel2</value>
+    <value>panel_konca_etapu</value>
   </data>
   <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="button7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="DALEJ.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="button7.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="DALEJ.Font" type="System.Drawing.Font, System.Drawing">
     <value>Impact, 14pt</value>
   </data>
-  <data name="button7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="DALEJ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="DALEJ.Location" type="System.Drawing.Point, System.Drawing">
     <value>27, 18</value>
   </data>
-  <data name="button7.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="DALEJ.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 61</value>
   </data>
-  <data name="button7.TabIndex" type="System.Int32, mscorlib">
+  <data name="DALEJ.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="button7.Text" xml:space="preserve">
+  <data name="DALEJ.Text" xml:space="preserve">
     <value>DALEJ</value>
   </data>
-  <data name="&gt;&gt;button7.Name" xml:space="preserve">
-    <value>button7</value>
+  <data name="&gt;&gt;DALEJ.Name" xml:space="preserve">
+    <value>DALEJ</value>
   </data>
-  <data name="&gt;&gt;button7.Type" xml:space="preserve">
+  <data name="&gt;&gt;DALEJ.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button7.Parent" xml:space="preserve">
-    <value>panel2</value>
+  <data name="&gt;&gt;DALEJ.Parent" xml:space="preserve">
+    <value>panel_konca_etapu</value>
   </data>
-  <data name="&gt;&gt;button7.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;DALEJ.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="label8.AutoSize" type="System.Boolean, mscorlib">
@@ -1967,7 +1934,7 @@ mnie slyszy?</value>
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label8.Parent" xml:space="preserve">
-    <value>panel2</value>
+    <value>panel_konca_etapu</value>
   </data>
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
     <value>4</value>
@@ -2000,7 +1967,7 @@ mnie slyszy?</value>
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label10.Parent" xml:space="preserve">
-    <value>panel2</value>
+    <value>panel_konca_etapu</value>
   </data>
   <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -2033,7 +2000,7 @@ mnie slyszy?</value>
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button5.Parent" xml:space="preserve">
-    <value>panel2</value>
+    <value>panel_konca_etapu</value>
   </data>
   <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -2066,37 +2033,37 @@ mnie slyszy?</value>
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button6.Parent" xml:space="preserve">
-    <value>panel2</value>
+    <value>panel_konca_etapu</value>
   </data>
   <data name="&gt;&gt;button6.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="panel3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
+  <data name="panel_konca_etapu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1075, 314</value>
   </data>
-  <data name="&gt;&gt;radioButton3.Name" xml:space="preserve">
-    <value>radioButton3</value>
+  <data name="panel_konca_etapu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>817, 266</value>
   </data>
-  <data name="&gt;&gt;radioButton3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="panel_konca_etapu.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
-  <data name="&gt;&gt;radioButton3.Parent" xml:space="preserve">
-    <value>panel3</value>
+  <data name="panel_konca_etapu.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="&gt;&gt;radioButton3.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;panel_konca_etapu.Name" xml:space="preserve">
+    <value>panel_konca_etapu</value>
   </data>
-  <data name="&gt;&gt;radioButton4.Name" xml:space="preserve">
-    <value>radioButton4</value>
+  <data name="&gt;&gt;panel_konca_etapu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;radioButton4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;panel_konca_etapu.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;radioButton4.Parent" xml:space="preserve">
-    <value>panel3</value>
-  </data>
-  <data name="&gt;&gt;radioButton4.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;panel_konca_etapu.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="panel_koncowy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="&gt;&gt;label12.Name" xml:space="preserve">
     <value>label12</value>
@@ -2105,10 +2072,10 @@ mnie slyszy?</value>
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label12.Parent" xml:space="preserve">
-    <value>panel3</value>
+    <value>panel_koncowy</value>
   </data>
   <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>0</value>
   </data>
   <data name="&gt;&gt;button8.Name" xml:space="preserve">
     <value>button8</value>
@@ -2117,10 +2084,10 @@ mnie slyszy?</value>
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button8.Parent" xml:space="preserve">
-    <value>panel3</value>
+    <value>panel_koncowy</value>
   </data>
   <data name="&gt;&gt;button8.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;label13.Name" xml:space="preserve">
     <value>label13</value>
@@ -2129,10 +2096,10 @@ mnie slyszy?</value>
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label13.Parent" xml:space="preserve">
-    <value>panel3</value>
+    <value>panel_koncowy</value>
   </data>
   <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>2</value>
   </data>
   <data name="&gt;&gt;label14.Name" xml:space="preserve">
     <value>label14</value>
@@ -2141,22 +2108,10 @@ mnie slyszy?</value>
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label14.Parent" xml:space="preserve">
-    <value>panel3</value>
+    <value>panel_koncowy</value>
   </data>
   <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;button9.Name" xml:space="preserve">
-    <value>button9</value>
-  </data>
-  <data name="&gt;&gt;button9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button9.Parent" xml:space="preserve">
-    <value>panel3</value>
-  </data>
-  <data name="&gt;&gt;button9.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;button10.Name" xml:space="preserve">
     <value>button10</value>
@@ -2165,97 +2120,34 @@ mnie slyszy?</value>
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button10.Parent" xml:space="preserve">
-    <value>panel3</value>
+    <value>panel_koncowy</value>
   </data>
   <data name="&gt;&gt;button10.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>4</value>
   </data>
-  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1754, 740</value>
+  <data name="panel_koncowy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1075, 602</value>
   </data>
-  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="panel_koncowy.Size" type="System.Drawing.Size, System.Drawing">
     <value>817, 266</value>
   </data>
-  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
+  <data name="panel_koncowy.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
-  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
-    <value>panel3</value>
+  <data name="panel_koncowy.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+  <data name="&gt;&gt;panel_koncowy.Name" xml:space="preserve">
+    <value>panel_koncowy</value>
+  </data>
+  <data name="&gt;&gt;panel_koncowy.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panel_koncowy.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;panel_koncowy.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="radioButton3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButton3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Impact, 12pt</value>
-  </data>
-  <data name="radioButton3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radioButton3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>344, 208</value>
-  </data>
-  <data name="radioButton3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 33</value>
-  </data>
-  <data name="radioButton3.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="radioButton3.Text" xml:space="preserve">
-    <value>TAK</value>
-  </data>
-  <data name="&gt;&gt;radioButton3.Name" xml:space="preserve">
-    <value>radioButton3</value>
-  </data>
-  <data name="&gt;&gt;radioButton3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton3.Parent" xml:space="preserve">
-    <value>panel3</value>
-  </data>
-  <data name="&gt;&gt;radioButton3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="radioButton4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButton4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Impact, 12pt</value>
-  </data>
-  <data name="radioButton4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radioButton4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>482, 208</value>
-  </data>
-  <data name="radioButton4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 33</value>
-  </data>
-  <data name="radioButton4.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="radioButton4.Text" xml:space="preserve">
-    <value>NIE</value>
-  </data>
-  <data name="&gt;&gt;radioButton4.Name" xml:space="preserve">
-    <value>radioButton4</value>
-  </data>
-  <data name="&gt;&gt;radioButton4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton4.Parent" xml:space="preserve">
-    <value>panel3</value>
-  </data>
-  <data name="&gt;&gt;radioButton4.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <data name="label12.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2267,7 +2159,7 @@ mnie slyszy?</value>
     <value>NoControl</value>
   </data>
   <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>173, 127</value>
+    <value>182, 141</value>
   </data>
   <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
     <value>601, 70</value>
@@ -2287,10 +2179,10 @@ mnie slyszy?</value>
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label12.Parent" xml:space="preserve">
-    <value>panel3</value>
+    <value>panel_koncowy</value>
   </data>
   <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>0</value>
   </data>
   <data name="button8.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -2302,7 +2194,7 @@ mnie slyszy?</value>
     <value>NoControl</value>
   </data>
   <data name="button8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>27, 18</value>
+    <value>27, 56</value>
   </data>
   <data name="button8.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 61</value>
@@ -2320,10 +2212,10 @@ mnie slyszy?</value>
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button8.Parent" xml:space="preserve">
-    <value>panel3</value>
+    <value>panel_koncowy</value>
   </data>
   <data name="&gt;&gt;button8.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>1</value>
   </data>
   <data name="label13.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2354,10 +2246,10 @@ mnie slyszy?</value>
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label13.Parent" xml:space="preserve">
-    <value>panel3</value>
+    <value>panel_koncowy</value>
   </data>
   <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>2</value>
   </data>
   <data name="label14.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2387,43 +2279,10 @@ mnie slyszy?</value>
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label14.Parent" xml:space="preserve">
-    <value>panel3</value>
+    <value>panel_koncowy</value>
   </data>
   <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="button9.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="button9.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Impact, 14pt</value>
-  </data>
-  <data name="button9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>27, 99</value>
-  </data>
-  <data name="button9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 61</value>
-  </data>
-  <data name="button9.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="button9.Text" xml:space="preserve">
-    <value>RESET</value>
-  </data>
-  <data name="&gt;&gt;button9.Name" xml:space="preserve">
-    <value>button9</value>
-  </data>
-  <data name="&gt;&gt;button9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button9.Parent" xml:space="preserve">
-    <value>panel3</value>
-  </data>
-  <data name="&gt;&gt;button9.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>3</value>
   </data>
   <data name="button10.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -2435,7 +2294,7 @@ mnie slyszy?</value>
     <value>NoControl</value>
   </data>
   <data name="button10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>27, 178</value>
+    <value>27, 154</value>
   </data>
   <data name="button10.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 63</value>
@@ -2453,10 +2312,10 @@ mnie slyszy?</value>
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button10.Parent" xml:space="preserve">
-    <value>panel3</value>
+    <value>panel_koncowy</value>
   </data>
   <data name="&gt;&gt;button10.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>4</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
