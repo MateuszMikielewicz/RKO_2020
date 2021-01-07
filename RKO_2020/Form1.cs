@@ -38,9 +38,6 @@ namespace RKO_2020
 
         private void Form1_Load(object sender, EventArgs e)
         {
-           //inicjalizacja niewidocznych przycisków(pictureboxów) na obiekcie picturebox
-           
-
             lista_dymkow.Add(dymek_1);
             lista_dymkow.Add(dymek_2);
             lista_dymkow.Add(dymek_3);
@@ -55,7 +52,8 @@ namespace RKO_2020
             lista_paneli_wyboru.Add(panel_wyboru3);
             lista_paneli_wyboru.Add(panel_czas_minal);
             lista_paneli_wyboru.Add(panel_konca_etapu);
-            lista_paneli_wyboru.Add(panel_koncowy);
+            lista_paneli_wyboru.Add(panel_koncowy_1);
+            lista_paneli_wyboru.Add(panel_koncowy_2);
 
             inicjalizuj_etap1(lista_paneli_wyboru, lista_pictureBoxow, radioButton_nie);
         }
@@ -68,6 +66,7 @@ namespace RKO_2020
                                                                  //(za wczesnie -5% życia; idealnie w czas +5%)
                 głowne_postaci_pictureBox.Image = global::RKO_2020.Properties.Resources.ucisk;  //Wyswietl uciskajacą faloske
                 Poziom_Życia.Text = etap2.Wyświetl_Życie();  //Wyswietl poziom zycia
+                koniec_gry(panel_koncowy_2);
             }
         }
 
@@ -160,7 +159,17 @@ namespace RKO_2020
 
         private void DALEJ_Click(object sender, EventArgs e)
         {
-            rozpocznij_etap2(lista_pictureBoxow, label1, Poziom_Życia, panel_konca_etapu);
+            rozpocznij_etap2(lista_pictureBoxow, label1, Poziom_Życia, panel_konca_etapu, timer_przybycia_medykow);
+        }
+
+        private void label19_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer_przybycia_medykow_Tick(object sender, EventArgs e)
+        {
+            koniec_gry(panel_koncowy_2);
         }
     }
 }

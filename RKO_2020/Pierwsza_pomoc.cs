@@ -38,7 +38,7 @@ namespace RKO_2020
             lista_obrazow.Add(obraz_bazowy_obserwatora);
             lista_obrazow.Add(obraz_zaznaczonego_obserwatora);
         }
-        public void obsługa_wyboru(int nr_opcji, Label instancja_tekstu, Label instancja_czasu, List<Panel> lista_dymkow, List<PictureBox> lista_pictureBoxow, Panel instancja_panelu)
+        public void obsługa_wyboru(int nr_opcji, Label instancja_tekstu, Label instancja_czasu, List<Panel> lista_dymkow, List<PictureBox> lista_pictureBoxow, Panel panel_koncowy_etapu)
         {
             switch (nr_opcji)
             {
@@ -78,7 +78,7 @@ namespace RKO_2020
                     if (wybrany_panel == 1 && stan_postepu == 5 && fasolka_oddycha == false)
                     {
                         stan_postepu = 6;
-                        interfejs.wyswietl_panel(instancja_panelu,5);
+                        interfejs.wyswietl_panel(panel_koncowy_etapu,5);
                     }
                     else interfejs.obsługa_błędu_użytkownika(instancja_tekstu, instancja_czasu);
                     break;

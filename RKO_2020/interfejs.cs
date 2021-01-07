@@ -48,14 +48,18 @@ namespace RKO_2020
             lista_pictureBoxow[3].Location = new Point(0, 76);
             lista_pictureBoxow[3].Show();
 
-            lista_paneli_wyboru[3].Location = new Point(62, 13);
-            lista_paneli_wyboru[4].Location = new Point(62, 13);
-            lista_paneli_wyboru[5].Location = new Point(62, 13);
+            for (int i = 3; i <= 6; i++)
+            {
+                lista_paneli_wyboru[i].Location = new Point(62, 13);
+            }
 
         }
         static public String Wyswietl_czas()
         {
-            Pierwsza_pomoc.ticks++;
+            if (Pierwsza_pomoc.stan_postepu != 6)
+            {
+                Pierwsza_pomoc.ticks++;
+            }
 
             int sekundy = Pierwsza_pomoc.ticks - 60 * (Pierwsza_pomoc.ticks / 60);
 
@@ -207,9 +211,10 @@ namespace RKO_2020
             }
         }
         static public void rozpocznij_etap2(List<PictureBox> lista_pictureBoxow,
-        System.Windows.Forms.Label label1, System.Windows.Forms.Label Poziom_Zycia, Panel panel_konca_etapu) //, List<Panel> lista_paneli_wyboru)
+        System.Windows.Forms.Label label1, System.Windows.Forms.Label Poziom_Zycia, Panel panel_konca_etapu, Timer timer_przybycia_medykow) //, List<Panel> lista_paneli_wyboru)
         {
             {
+                timer_przybycia_medykow.Enabled = true;
                 Pierwsza_pomoc.etap2_nierozpoczety = false;
                 panel_konca_etapu.Hide();
                 lista_pictureBoxow[2].Hide();
@@ -218,6 +223,63 @@ namespace RKO_2020
                 lista_pictureBoxow[1].Enabled = false;
                 label1.Text="Kliknij spacje, aby ucisnac";
                 Poziom_Zycia.Visible = true;
+            }
+        }
+        static public void koniec_gry(Control panel_koncowy)
+        {
+            List<String> lista_label = new List<String>();
+            int i=3;
+            foreach (Control ctrl in panel_koncowy.Controls)
+            {
+                if(ctrl is Label && i>=1)
+                {
+                    ctrl.Text += wyniki_koncowe(i,10,30,0);
+                    i--;
+                }
+            }
+            panel_koncowy.Show();
+
+        }
+        static public String wyniki_koncowe(int rodzaj_wyniku, double zle, double dobre, int bonus)
+        {
+            int x1 = Pierwsza_pomoc.ticks / 30;
+            double x2 = dobre / (zle + dobre);
+            switch (rodzaj_wyniku)
+            {
+                case 1:
+                    switch (x1)
+                    {
+                        case 0:
+                            return "Mistrzowsko";
+                        case 1:
+                            return "Swietnie";
+                        case 2:
+                            return "dobrze";
+                        default:
+                            return "musisz jeszcze popracować";
+                    }
+                case 2:
+                   if(x2 > 0.9)
+                    {
+                        return "Mistrzowsko";
+                    }
+                    else if (x2 > 0.8)
+                    {
+                        return "Swietnie";
+                    }
+                    else if (x2 > 0.6)
+                    {
+                        return "dobrze";
+                    }
+                    else if (x2 > 0.5)
+                    {
+                        return "musisz jeszcze popracować";
+                    }
+                    else return "slabo sprobuj jeszcze raz";
+                default:
+                    int x3 = (int)(-x1 + 3 + 6 * (x2 - 0.5)+bonus);
+                    if (x3 > 6) return "6/5 POZA SKALĄ";
+                    else return Convert.ToString(x3) + "/5";            
             }
         }
     }

@@ -84,12 +84,21 @@ namespace RKO_2020
             this.label10 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.panel_koncowy = new System.Windows.Forms.Panel();
+            this.panel_koncowy_1 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.button8 = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.button10 = new System.Windows.Forms.Button();
+            this.label16 = new System.Windows.Forms.Label();
+            this.panel_koncowy_2 = new System.Windows.Forms.Panel();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.timer_przybycia_medykow = new System.Windows.Forms.Timer(this.components);
             this.panelMENU.SuspendLayout();
             this.panel_głowny.SuspendLayout();
             this.panel_wyboru3.SuspendLayout();
@@ -104,7 +113,8 @@ namespace RKO_2020
             this.dymek_3.SuspendLayout();
             this.panel_czas_minal.SuspendLayout();
             this.panel_konca_etapu.SuspendLayout();
-            this.panel_koncowy.SuspendLayout();
+            this.panel_koncowy_1.SuspendLayout();
+            this.panel_koncowy_2.SuspendLayout();
             this.SuspendLayout();
             // 
             // timer1
@@ -547,19 +557,20 @@ namespace RKO_2020
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.ZAKONCZ_GRE_Click);
             // 
-            // panel_koncowy
+            // panel_koncowy_1
             // 
-            resources.ApplyResources(this.panel_koncowy, "panel_koncowy");
-            this.panel_koncowy.BackColor = System.Drawing.Color.SteelBlue;
-            this.panel_koncowy.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel_koncowy.Controls.Add(this.label12);
-            this.panel_koncowy.Controls.Add(this.button8);
-            this.panel_koncowy.Controls.Add(this.label13);
-            this.panel_koncowy.Controls.Add(this.label14);
-            this.panel_koncowy.Controls.Add(this.button10);
-            this.panel_koncowy.Cursor = System.Windows.Forms.Cursors.Default;
-            this.panel_koncowy.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.panel_koncowy.Name = "panel_koncowy";
+            resources.ApplyResources(this.panel_koncowy_1, "panel_koncowy_1");
+            this.panel_koncowy_1.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel_koncowy_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_koncowy_1.Controls.Add(this.label16);
+            this.panel_koncowy_1.Controls.Add(this.label12);
+            this.panel_koncowy_1.Controls.Add(this.button8);
+            this.panel_koncowy_1.Controls.Add(this.label13);
+            this.panel_koncowy_1.Controls.Add(this.label14);
+            this.panel_koncowy_1.Controls.Add(this.button10);
+            this.panel_koncowy_1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.panel_koncowy_1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.panel_koncowy_1.Name = "panel_koncowy_1";
             // 
             // label12
             // 
@@ -599,11 +610,83 @@ namespace RKO_2020
             this.button10.UseVisualStyleBackColor = false;
             this.button10.Click += new System.EventHandler(this.ZAKONCZ_GRE_Click);
             // 
+            // label16
+            // 
+            resources.ApplyResources(this.label16, "label16");
+            this.label16.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label16.Name = "label16";
+            // 
+            // panel_koncowy_2
+            // 
+            resources.ApplyResources(this.panel_koncowy_2, "panel_koncowy_2");
+            this.panel_koncowy_2.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel_koncowy_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_koncowy_2.Controls.Add(this.label15);
+            this.panel_koncowy_2.Controls.Add(this.label17);
+            this.panel_koncowy_2.Controls.Add(this.button1);
+            this.panel_koncowy_2.Controls.Add(this.label18);
+            this.panel_koncowy_2.Controls.Add(this.label19);
+            this.panel_koncowy_2.Controls.Add(this.button3);
+            this.panel_koncowy_2.Cursor = System.Windows.Forms.Cursors.Default;
+            this.panel_koncowy_2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.panel_koncowy_2.Name = "panel_koncowy_2";
+            // 
+            // label15
+            // 
+            resources.ApplyResources(this.label15, "label15");
+            this.label15.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label15.Name = "label15";
+            // 
+            // label17
+            // 
+            resources.ApplyResources(this.label17, "label17");
+            this.label17.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label17.Name = "label17";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Firebrick;
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Name = "button1";
+            this.button1.TabStop = false;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.reset_button_Click);
+            // 
+            // label18
+            // 
+            resources.ApplyResources(this.label18, "label18");
+            this.label18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label18.Name = "label18";
+            // 
+            // label19
+            // 
+            resources.ApplyResources(this.label19, "label19");
+            this.label19.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label19.Name = "label19";
+            this.label19.Click += new System.EventHandler(this.label19_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Firebrick;
+            resources.ApplyResources(this.button3, "button3");
+            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button3.Name = "button3";
+            this.button3.TabStop = false;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.ZAKONCZ_GRE_Click);
+            // 
+            // timer_przybycia_medykow
+            // 
+            this.timer_przybycia_medykow.Interval = 10000;
+            this.timer_przybycia_medykow.Tick += new System.EventHandler(this.timer_przybycia_medykow_Tick);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.panel_koncowy);
+            this.Controls.Add(this.panel_koncowy_2);
+            this.Controls.Add(this.panel_koncowy_1);
             this.Controls.Add(this.panel_konca_etapu);
             this.Controls.Add(this.panel_czas_minal);
             this.Controls.Add(this.dymek_3);
@@ -642,8 +725,10 @@ namespace RKO_2020
             this.panel_czas_minal.PerformLayout();
             this.panel_konca_etapu.ResumeLayout(false);
             this.panel_konca_etapu.PerformLayout();
-            this.panel_koncowy.ResumeLayout(false);
-            this.panel_koncowy.PerformLayout();
+            this.panel_koncowy_1.ResumeLayout(false);
+            this.panel_koncowy_1.PerformLayout();
+            this.panel_koncowy_2.ResumeLayout(false);
+            this.panel_koncowy_2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -702,12 +787,21 @@ namespace RKO_2020
         private Button button6;
         private RadioButton radioButton2;
         private RadioButton radioButton_nie;
-        public Panel panel_koncowy;
+        public Panel panel_koncowy_1;
         private Label label12;
         private Button button8;
         private Label label13;
         private Label label14;
         private Button button10;
+        private Label label16;
+        public Panel panel_koncowy_2;
+        private Label label15;
+        private Label label17;
+        private Button button1;
+        private Label label18;
+        private Label label19;
+        private Button button3;
+        private Timer timer_przybycia_medykow;
     }
 }
 
