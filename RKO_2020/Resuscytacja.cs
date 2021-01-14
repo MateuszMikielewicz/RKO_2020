@@ -5,28 +5,34 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Diagnostics;
 using System.Windows.Forms;
+using System.Drawing;
 
 namespace RKO_2020
 {
     public class Resuscytacja
     {
-        public int Poziom_Życia;
-        public bool wciśnięty_przycisk = false;
+        static public int Poziom_Zycia;
+        public bool wcisniety_przycisk = false;
+        static public bool czy_trwa_resuscytacja = false;
+        static public int chalenge=0;
+        static public int idealne_uciski = 1;
+        static public int zle_uciski = 1;
         TimeSpan ts = new TimeSpan();
         TimeSpan ts2 = new TimeSpan();
         Stopwatch stopwatch = new Stopwatch();
         Stopwatch stopwatch2 = new Stopwatch();
         public Resuscytacja() {
-            this.Poziom_Życia = 0;
+            Poziom_Zycia = 0;
         }
-        public void Aktualizacja_Życia_Przycisk(System.Windows.Forms.Label label, bool czy_kliknięto_spacje)
+        public void Aktualizacja_Zycia(Label label_glowny, Label label_Poziom_Zycia, bool czy_kliknieto_spacje)
         {
+            if (czy_trwa_resuscytacja == false) return; 
             if (!stopwatch.IsRunning) //funkcja inicjalizująca stopery
             {
                 stopwatch.Start(); //stoper odpowiadający za liczenie delty pomiędzy kolejnymi wciśnięciami spacji
                 stopwatch2.Start(); //stoper odpowiadający za kontrolowanie czy gracz przekroczył interwał czasu
             }
-            if (!wciśnięty_przycisk)
+            if (!wcisniety_przycisk)
             {
                 stopwatch.Stop(); //zatrzymanie stoperów
                 stopwatch2.Stop();
@@ -40,38 +46,44 @@ namespace RKO_2020
                 stopwatch2.Start();
                 
                 double delta = ts.TotalMilliseconds; //delta czasu od poprzedniego kliknięcia spacji
-                wciśnięty_przycisk = true;
-                if (600 >= delta && delta >= 500 && Poziom_Życia != 100) // zwiększanie życia jezeli 0.6s>delta>0.5s
+                wcisniety_przycisk = true;
+                if (600 >= delta && delta >= 500 && Poziom_Zycia != 100) // zwiększanie życia jezeli 0.6s>delta>0.5s
                 {
-                    label.Text = "IDEALNIE";
-                    Poziom_Życia += 5;
+                    interfejs.zmien_label(label_glowny, "            IDEALNIE", Color.Chartreuse, true);
+                    idealne_uciski++;
+                    Poziom_Zycia += 5;
                 }
-                else if(delta<500 && Poziom_Życia!=0) //zmniejszanie życia gdy gracz wciska przycisk zbyt szybko
+                else if (delta < 500 && Poziom_Zycia != 0) //zmniejszanie życia gdy gracz wciska przycisk zbyt szybko
                 {
-                    label.Text = "ZA SZYBKO";
-                    Poziom_Życia -= 5;
+                    interfejs.zmien_label(label_glowny, "            ZA SZYBKO", Color.Firebrick, true);
+                    zle_uciski++;
+                    Poziom_Zycia -= 5;
                 }
                 //ze wzgledu na metode sprawdzania czy gracz przekroczył czas, to interwał czasu
                 //nieznacznie się wydłuża. Dlatego ten dodatkowy interwał czasu nie zabiera, ani nie dodaje graczowi 
                 //poziomu żywotności. W zamian za to wyświetla feedback "PRAWIE";
-                else if (ts2.TotalMilliseconds > 600 && delta > 600 && Poziom_Życia!=0) label.Text = "PRAWIE"; 
+                else if (ts2.TotalMilliseconds > 600 && delta > 600 && Poziom_Zycia != 0)
+                {
+                    interfejs.zmien_label(label_glowny, "            PRAWIE", Color.White, true);
+                }
             }
-            else if (!czy_kliknięto_spacje) //jeżeli funkcja jest wywoływana za pomocą timera sprawdzjącego
+            else if (!czy_kliknieto_spacje) //jeżeli funkcja jest wywoływana za pomocą timera sprawdzjącego
             {
                 ts2 = stopwatch2.Elapsed;
-                if (ts2.TotalMilliseconds > 600 && Poziom_Życia != 0) //spadek zycia jeśli gracz nie wykonał akcji w zadanym czasie
+                if (ts2.TotalMilliseconds > 600 && Poziom_Zycia != 0) //spadek zycia jeśli gracz nie wykonał akcji w zadanym czasie
                 {
                     stopwatch2.Stop();
                     stopwatch2.Reset();
                     stopwatch2.Start();
-                    label.Text = "ZA PÓŹNO";
-                    Poziom_Życia -= 5;
+                    interfejs.zmien_label(label_glowny, "            ZA POZNO", Color.Firebrick, true);
+                    zle_uciski++;
+                    Poziom_Zycia -= 5;
                 }
             }
         }
-        public String Wyświetl_Życie()
+        public String Wyswietl_Zycie()
         {
-            return "POZIOM ŻYWOTNOŚCI "+Poziom_Życia.ToString()+"%";
+            return "POZIOM ZYWOTNOSCI "+ Poziom_Zycia.ToString()+"%";
         }
     }
 }

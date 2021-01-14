@@ -138,5 +138,12 @@
   <ItemGroup>
     <None Include="Resources\skulony_bohater_pozycja_startowa.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pozycja_boczna_bezpieczna_wyprostowany_bohater.png" />
+    <None Include="Resources\pozycja_boczna_bezpieczna_skulony_bohater.png" />
+    <None Include="Resources\medyk2.png" />
+    <None Include="Resources\medyk1.png" />
+    <Content Include="Resources\pozycja_boczna_bezpieczna.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

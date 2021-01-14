@@ -163,4 +163,16 @@
   <data name="skulony_bohater_pozycja_startowa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\skulony_bohater_pozycja_startowa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="medyk1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medyk1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="medyk2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\medyk2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pozycja_boczna_bezpieczna_skulony_bohater" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pozycja_boczna_bezpieczna_skulony_bohater.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pozycja_boczna_bezpieczna_wyprostowany_bohater" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pozycja_boczna_bezpieczna_wyprostowany_bohater.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

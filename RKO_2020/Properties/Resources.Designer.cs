@@ -73,6 +73,26 @@ namespace RKO_2020.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap medyk1 {
+            get {
+                object obj = ResourceManager.GetObject("medyk1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap medyk2 {
+            get {
+                object obj = ResourceManager.GetObject("medyk2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap none_image {
             get {
                 object obj = ResourceManager.GetObject("none_image", resourceCulture);
@@ -136,6 +156,26 @@ namespace RKO_2020.Properties {
         internal static System.Drawing.Bitmap odchylona_glowa_zanaczenie_tulowia {
             get {
                 object obj = ResourceManager.GetObject("odchylona_glowa_zanaczenie_tulowia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pozycja_boczna_bezpieczna_skulony_bohater {
+            get {
+                object obj = ResourceManager.GetObject("pozycja_boczna_bezpieczna_skulony_bohater", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pozycja_boczna_bezpieczna_wyprostowany_bohater {
+            get {
+                object obj = ResourceManager.GetObject("pozycja_boczna_bezpieczna_wyprostowany_bohater", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -37,33 +37,11 @@ namespace RKO_2020
             this.RESET = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.ZAKONCZ_GRE = new System.Windows.Forms.Button();
-            this.Poziom_Życia = new System.Windows.Forms.Label();
+            this.Poziom_Zycia_label = new System.Windows.Forms.Label();
             this.CZAS_BOX = new System.Windows.Forms.Label();
             this.timer_sprawdzający = new System.Windows.Forms.Timer(this.components);
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.panel_głowny = new System.Windows.Forms.Panel();
-            this.panel_wyboru3 = new System.Windows.Forms.Panel();
-            this.opcja2_label_3 = new System.Windows.Forms.Label();
-            this.opcja1_label_3 = new System.Windows.Forms.Label();
-            this.opcja1_3 = new System.Windows.Forms.Button();
-            this.opcja2_3 = new System.Windows.Forms.Button();
-            this.obserwator_pictureBox = new System.Windows.Forms.PictureBox();
-            this.panel_wyboru2 = new System.Windows.Forms.Panel();
-            this.opcja2_label_2 = new System.Windows.Forms.Label();
-            this.opcja1_label_2 = new System.Windows.Forms.Label();
-            this.opcja1_2 = new System.Windows.Forms.Button();
-            this.opcja2_2 = new System.Windows.Forms.Button();
-            this.glowa_pictureBox = new System.Windows.Forms.PictureBox();
-            this.tułow_pictureBox = new System.Windows.Forms.PictureBox();
-            this.głowne_postaci_pictureBox = new System.Windows.Forms.PictureBox();
-            this.panel_wyboru1 = new System.Windows.Forms.Panel();
-            this.opcja3_label_1 = new System.Windows.Forms.Label();
-            this.opcja2_label_1 = new System.Windows.Forms.Label();
-            this.opcja1_label_1 = new System.Windows.Forms.Label();
-            this.opcja1 = new System.Windows.Forms.Button();
-            this.opcja2 = new System.Windows.Forms.Button();
-            this.opcja3 = new System.Windows.Forms.Button();
             this.dymek_1 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.dymek_2 = new System.Windows.Forms.Panel();
@@ -85,29 +63,50 @@ namespace RKO_2020
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.panel_koncowy_1 = new System.Windows.Forms.Panel();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.button8 = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
             this.button10 = new System.Windows.Forms.Button();
-            this.label16 = new System.Windows.Forms.Label();
             this.panel_koncowy_2 = new System.Windows.Forms.Panel();
+            this.label19 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.timer_przybycia_medykow = new System.Windows.Forms.Timer(this.components);
+            this.panel_koncowy_3 = new System.Windows.Forms.Panel();
+            this.label23 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label22 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
+            this.panel_głowny = new System.Windows.Forms.Panel();
+            this.medyk1_picture = new System.Windows.Forms.PictureBox();
+            this.medyk2_picture = new System.Windows.Forms.PictureBox();
+            this.panel_wyboru3 = new System.Windows.Forms.Panel();
+            this.opcja2_label_3 = new System.Windows.Forms.Label();
+            this.opcja1_label_3 = new System.Windows.Forms.Label();
+            this.opcja1_3 = new System.Windows.Forms.Button();
+            this.opcja2_3 = new System.Windows.Forms.Button();
+            this.obserwator_pictureBox = new System.Windows.Forms.PictureBox();
+            this.panel_wyboru2 = new System.Windows.Forms.Panel();
+            this.opcja2_label_2 = new System.Windows.Forms.Label();
+            this.opcja1_label_2 = new System.Windows.Forms.Label();
+            this.opcja1_2 = new System.Windows.Forms.Button();
+            this.opcja2_2 = new System.Windows.Forms.Button();
+            this.glowa_pictureBox = new System.Windows.Forms.PictureBox();
+            this.tułow_pictureBox = new System.Windows.Forms.PictureBox();
+            this.głowne_postaci_pictureBox = new System.Windows.Forms.PictureBox();
+            this.panel_wyboru1 = new System.Windows.Forms.Panel();
+            this.opcja3_label_1 = new System.Windows.Forms.Label();
+            this.opcja2_label_1 = new System.Windows.Forms.Label();
+            this.opcja1_label_1 = new System.Windows.Forms.Label();
+            this.opcja1 = new System.Windows.Forms.Button();
+            this.opcja2 = new System.Windows.Forms.Button();
+            this.opcja3 = new System.Windows.Forms.Button();
             this.panelMENU.SuspendLayout();
-            this.panel_głowny.SuspendLayout();
-            this.panel_wyboru3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.obserwator_pictureBox)).BeginInit();
-            this.panel_wyboru2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.glowa_pictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tułow_pictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.głowne_postaci_pictureBox)).BeginInit();
-            this.panel_wyboru1.SuspendLayout();
             this.dymek_1.SuspendLayout();
             this.dymek_2.SuspendLayout();
             this.dymek_3.SuspendLayout();
@@ -115,6 +114,17 @@ namespace RKO_2020
             this.panel_konca_etapu.SuspendLayout();
             this.panel_koncowy_1.SuspendLayout();
             this.panel_koncowy_2.SuspendLayout();
+            this.panel_koncowy_3.SuspendLayout();
+            this.panel_głowny.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.medyk1_picture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.medyk2_picture)).BeginInit();
+            this.panel_wyboru3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.obserwator_pictureBox)).BeginInit();
+            this.panel_wyboru2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.glowa_pictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tułow_pictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.głowne_postaci_pictureBox)).BeginInit();
+            this.panel_wyboru1.SuspendLayout();
             this.SuspendLayout();
             // 
             // timer1
@@ -129,7 +139,7 @@ namespace RKO_2020
             this.panelMENU.Controls.Add(this.RESET);
             this.panelMENU.Controls.Add(this.label1);
             this.panelMENU.Controls.Add(this.ZAKONCZ_GRE);
-            this.panelMENU.Controls.Add(this.Poziom_Życia);
+            this.panelMENU.Controls.Add(this.Poziom_Zycia_label);
             this.panelMENU.Controls.Add(this.CZAS_BOX);
             resources.ApplyResources(this.panelMENU, "panelMENU");
             this.panelMENU.Name = "panelMENU";
@@ -160,11 +170,11 @@ namespace RKO_2020
             this.ZAKONCZ_GRE.UseVisualStyleBackColor = false;
             this.ZAKONCZ_GRE.Click += new System.EventHandler(this.ZAKONCZ_GRE_Click);
             // 
-            // Poziom_Życia
+            // Poziom_Zycia_label
             // 
-            resources.ApplyResources(this.Poziom_Życia, "Poziom_Życia");
-            this.Poziom_Życia.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Poziom_Życia.Name = "Poziom_Życia";
+            resources.ApplyResources(this.Poziom_Zycia_label, "Poziom_Zycia_label");
+            this.Poziom_Zycia_label.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Poziom_Zycia_label.Name = "Poziom_Zycia_label";
             // 
             // CZAS_BOX
             // 
@@ -190,10 +200,342 @@ namespace RKO_2020
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label3.Name = "label3";
             // 
+            // dymek_1
+            // 
+            this.dymek_1.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.dymek_1.Controls.Add(this.label4);
+            resources.ApplyResources(this.dymek_1, "dymek_1");
+            this.dymek_1.Name = "dymek_1";
+            // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
+            // 
+            // dymek_2
+            // 
+            this.dymek_2.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.dymek_2.Controls.Add(this.label5);
+            resources.ApplyResources(this.dymek_2, "dymek_2");
+            this.dymek_2.Name = "dymek_2";
+            // 
+            // label5
+            // 
+            resources.ApplyResources(this.label5, "label5");
+            this.label5.Name = "label5";
+            // 
+            // dymek_3
+            // 
+            this.dymek_3.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.dymek_3.Controls.Add(this.label6);
+            resources.ApplyResources(this.dymek_3, "dymek_3");
+            this.dymek_3.Name = "dymek_3";
+            // 
+            // label6
+            // 
+            resources.ApplyResources(this.label6, "label6");
+            this.label6.Name = "label6";
+            // 
+            // panel_czas_minal
+            // 
+            resources.ApplyResources(this.panel_czas_minal, "panel_czas_minal");
+            this.panel_czas_minal.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel_czas_minal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_czas_minal.Controls.Add(this.label7);
+            this.panel_czas_minal.Controls.Add(this.label9);
+            this.panel_czas_minal.Controls.Add(this.button);
+            this.panel_czas_minal.Controls.Add(this.button2);
+            this.panel_czas_minal.Cursor = System.Windows.Forms.Cursors.Default;
+            this.panel_czas_minal.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.panel_czas_minal.Name = "panel_czas_minal";
+            // 
+            // label7
+            // 
+            resources.ApplyResources(this.label7, "label7");
+            this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label7.Name = "label7";
+            // 
+            // label9
+            // 
+            resources.ApplyResources(this.label9, "label9");
+            this.label9.ForeColor = System.Drawing.Color.DarkRed;
+            this.label9.Name = "label9";
+            // 
+            // button
+            // 
+            this.button.BackColor = System.Drawing.Color.Firebrick;
+            resources.ApplyResources(this.button, "button");
+            this.button.ForeColor = System.Drawing.Color.White;
+            this.button.Name = "button";
+            this.button.TabStop = false;
+            this.button.UseVisualStyleBackColor = false;
+            this.button.Click += new System.EventHandler(this.reset_button_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Firebrick;
+            resources.ApplyResources(this.button2, "button2");
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.Name = "button2";
+            this.button2.TabStop = false;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.ZAKONCZ_GRE_Click);
+            // 
+            // panel_konca_etapu
+            // 
+            resources.ApplyResources(this.panel_konca_etapu, "panel_konca_etapu");
+            this.panel_konca_etapu.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel_konca_etapu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_konca_etapu.Controls.Add(this.radioButton2);
+            this.panel_konca_etapu.Controls.Add(this.radioButton_nie);
+            this.panel_konca_etapu.Controls.Add(this.label11);
+            this.panel_konca_etapu.Controls.Add(this.DALEJ);
+            this.panel_konca_etapu.Controls.Add(this.label8);
+            this.panel_konca_etapu.Controls.Add(this.label10);
+            this.panel_konca_etapu.Controls.Add(this.button5);
+            this.panel_konca_etapu.Controls.Add(this.button6);
+            this.panel_konca_etapu.Cursor = System.Windows.Forms.Cursors.Default;
+            this.panel_konca_etapu.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.panel_konca_etapu.Name = "panel_konca_etapu";
+            // 
+            // radioButton2
+            // 
+            resources.ApplyResources(this.radioButton2, "radioButton2");
+            this.radioButton2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton_nie
+            // 
+            resources.ApplyResources(this.radioButton_nie, "radioButton_nie");
+            this.radioButton_nie.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.radioButton_nie.Name = "radioButton_nie";
+            this.radioButton_nie.TabStop = true;
+            this.radioButton_nie.UseVisualStyleBackColor = true;
+            // 
+            // label11
+            // 
+            resources.ApplyResources(this.label11, "label11");
+            this.label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label11.Name = "label11";
+            // 
+            // DALEJ
+            // 
+            this.DALEJ.BackColor = System.Drawing.Color.Firebrick;
+            resources.ApplyResources(this.DALEJ, "DALEJ");
+            this.DALEJ.ForeColor = System.Drawing.Color.White;
+            this.DALEJ.Name = "DALEJ";
+            this.DALEJ.TabStop = false;
+            this.DALEJ.UseVisualStyleBackColor = false;
+            this.DALEJ.Click += new System.EventHandler(this.DALEJ_Click);
+            // 
+            // label8
+            // 
+            resources.ApplyResources(this.label8, "label8");
+            this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label8.Name = "label8";
+            // 
+            // label10
+            // 
+            resources.ApplyResources(this.label10, "label10");
+            this.label10.ForeColor = System.Drawing.Color.Chartreuse;
+            this.label10.Name = "label10";
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Firebrick;
+            resources.ApplyResources(this.button5, "button5");
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Name = "button5";
+            this.button5.TabStop = false;
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.reset_button_Click);
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.Firebrick;
+            resources.ApplyResources(this.button6, "button6");
+            this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button6.Name = "button6";
+            this.button6.TabStop = false;
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.ZAKONCZ_GRE_Click);
+            // 
+            // panel_koncowy_1
+            // 
+            resources.ApplyResources(this.panel_koncowy_1, "panel_koncowy_1");
+            this.panel_koncowy_1.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel_koncowy_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_koncowy_1.Controls.Add(this.label14);
+            this.panel_koncowy_1.Controls.Add(this.label16);
+            this.panel_koncowy_1.Controls.Add(this.label12);
+            this.panel_koncowy_1.Controls.Add(this.button8);
+            this.panel_koncowy_1.Controls.Add(this.label13);
+            this.panel_koncowy_1.Controls.Add(this.button10);
+            this.panel_koncowy_1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.panel_koncowy_1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.panel_koncowy_1.Name = "panel_koncowy_1";
+            // 
+            // label14
+            // 
+            resources.ApplyResources(this.label14, "label14");
+            this.label14.ForeColor = System.Drawing.Color.Chartreuse;
+            this.label14.Name = "label14";
+            // 
+            // label16
+            // 
+            resources.ApplyResources(this.label16, "label16");
+            this.label16.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label16.Name = "label16";
+            // 
+            // label12
+            // 
+            resources.ApplyResources(this.label12, "label12");
+            this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label12.Name = "label12";
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.Firebrick;
+            resources.ApplyResources(this.button8, "button8");
+            this.button8.ForeColor = System.Drawing.Color.White;
+            this.button8.Name = "button8";
+            this.button8.TabStop = false;
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.reset_button_Click);
+            // 
+            // label13
+            // 
+            resources.ApplyResources(this.label13, "label13");
+            this.label13.BackColor = System.Drawing.Color.SteelBlue;
+            this.label13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label13.Name = "label13";
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.Firebrick;
+            resources.ApplyResources(this.button10, "button10");
+            this.button10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button10.Name = "button10";
+            this.button10.TabStop = false;
+            this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.ZAKONCZ_GRE_Click);
+            // 
+            // panel_koncowy_2
+            // 
+            resources.ApplyResources(this.panel_koncowy_2, "panel_koncowy_2");
+            this.panel_koncowy_2.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel_koncowy_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_koncowy_2.Controls.Add(this.label19);
+            this.panel_koncowy_2.Controls.Add(this.label15);
+            this.panel_koncowy_2.Controls.Add(this.label17);
+            this.panel_koncowy_2.Controls.Add(this.button1);
+            this.panel_koncowy_2.Controls.Add(this.label18);
+            this.panel_koncowy_2.Controls.Add(this.button3);
+            this.panel_koncowy_2.Cursor = System.Windows.Forms.Cursors.Default;
+            this.panel_koncowy_2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.panel_koncowy_2.Name = "panel_koncowy_2";
+            // 
+            // label19
+            // 
+            resources.ApplyResources(this.label19, "label19");
+            this.label19.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label19.Name = "label19";
+            // 
+            // label15
+            // 
+            resources.ApplyResources(this.label15, "label15");
+            this.label15.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label15.Name = "label15";
+            // 
+            // label17
+            // 
+            resources.ApplyResources(this.label17, "label17");
+            this.label17.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label17.Name = "label17";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Firebrick;
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Name = "button1";
+            this.button1.TabStop = false;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.reset_button_Click);
+            // 
+            // label18
+            // 
+            resources.ApplyResources(this.label18, "label18");
+            this.label18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label18.Name = "label18";
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Firebrick;
+            resources.ApplyResources(this.button3, "button3");
+            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button3.Name = "button3";
+            this.button3.TabStop = false;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.ZAKONCZ_GRE_Click);
+            // 
+            // timer_przybycia_medykow
+            // 
+            this.timer_przybycia_medykow.Interval = 40000;
+            this.timer_przybycia_medykow.Tick += new System.EventHandler(this.timer_przybycia_medykow_Tick);
+            // 
+            // panel_koncowy_3
+            // 
+            resources.ApplyResources(this.panel_koncowy_3, "panel_koncowy_3");
+            this.panel_koncowy_3.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel_koncowy_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_koncowy_3.Controls.Add(this.label23);
+            this.panel_koncowy_3.Controls.Add(this.button4);
+            this.panel_koncowy_3.Controls.Add(this.label22);
+            this.panel_koncowy_3.Controls.Add(this.button7);
+            this.panel_koncowy_3.Cursor = System.Windows.Forms.Cursors.Default;
+            this.panel_koncowy_3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.panel_koncowy_3.Name = "panel_koncowy_3";
+            // 
+            // label23
+            // 
+            resources.ApplyResources(this.label23, "label23");
+            this.label23.ForeColor = System.Drawing.Color.Chartreuse;
+            this.label23.Name = "label23";
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Firebrick;
+            resources.ApplyResources(this.button4, "button4");
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Name = "button4";
+            this.button4.TabStop = false;
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.reset_button_Click);
+            // 
+            // label22
+            // 
+            resources.ApplyResources(this.label22, "label22");
+            this.label22.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label22.Name = "label22";
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.Firebrick;
+            resources.ApplyResources(this.button7, "button7");
+            this.button7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button7.Name = "button7";
+            this.button7.TabStop = false;
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.ZAKONCZ_GRE_Click);
+            // 
             // panel_głowny
             // 
             this.panel_głowny.BackgroundImage = global::RKO_2020.Properties.Resources.tło_gra_rko;
             resources.ApplyResources(this.panel_głowny, "panel_głowny");
+            this.panel_głowny.Controls.Add(this.medyk1_picture);
+            this.panel_głowny.Controls.Add(this.medyk2_picture);
             this.panel_głowny.Controls.Add(this.panel_wyboru3);
             this.panel_głowny.Controls.Add(this.obserwator_pictureBox);
             this.panel_głowny.Controls.Add(this.panel_wyboru2);
@@ -203,6 +545,22 @@ namespace RKO_2020
             this.panel_głowny.Controls.Add(this.panel_wyboru1);
             this.panel_głowny.Name = "panel_głowny";
             this.panel_głowny.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel_głowny_MouseMove);
+            // 
+            // medyk1_picture
+            // 
+            this.medyk1_picture.BackColor = System.Drawing.Color.Transparent;
+            this.medyk1_picture.Image = global::RKO_2020.Properties.Resources.medyk1;
+            resources.ApplyResources(this.medyk1_picture, "medyk1_picture");
+            this.medyk1_picture.Name = "medyk1_picture";
+            this.medyk1_picture.TabStop = false;
+            // 
+            // medyk2_picture
+            // 
+            this.medyk2_picture.BackColor = System.Drawing.Color.Transparent;
+            this.medyk2_picture.Image = global::RKO_2020.Properties.Resources.medyk2;
+            resources.ApplyResources(this.medyk2_picture, "medyk2_picture");
+            this.medyk2_picture.Name = "medyk2_picture";
+            this.medyk2_picture.TabStop = false;
             // 
             // panel_wyboru3
             // 
@@ -396,295 +754,11 @@ namespace RKO_2020
             this.opcja3.UseVisualStyleBackColor = false;
             this.opcja3.Click += new System.EventHandler(this.opcja3_Click);
             // 
-            // dymek_1
-            // 
-            this.dymek_1.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.dymek_1.Controls.Add(this.label4);
-            resources.ApplyResources(this.dymek_1, "dymek_1");
-            this.dymek_1.Name = "dymek_1";
-            // 
-            // label4
-            // 
-            resources.ApplyResources(this.label4, "label4");
-            this.label4.Name = "label4";
-            // 
-            // dymek_2
-            // 
-            this.dymek_2.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.dymek_2.Controls.Add(this.label5);
-            resources.ApplyResources(this.dymek_2, "dymek_2");
-            this.dymek_2.Name = "dymek_2";
-            // 
-            // label5
-            // 
-            resources.ApplyResources(this.label5, "label5");
-            this.label5.Name = "label5";
-            // 
-            // dymek_3
-            // 
-            this.dymek_3.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.dymek_3.Controls.Add(this.label6);
-            resources.ApplyResources(this.dymek_3, "dymek_3");
-            this.dymek_3.Name = "dymek_3";
-            // 
-            // label6
-            // 
-            resources.ApplyResources(this.label6, "label6");
-            this.label6.Name = "label6";
-            // 
-            // panel_czas_minal
-            // 
-            resources.ApplyResources(this.panel_czas_minal, "panel_czas_minal");
-            this.panel_czas_minal.BackColor = System.Drawing.Color.SteelBlue;
-            this.panel_czas_minal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel_czas_minal.Controls.Add(this.label7);
-            this.panel_czas_minal.Controls.Add(this.label9);
-            this.panel_czas_minal.Controls.Add(this.button);
-            this.panel_czas_minal.Controls.Add(this.button2);
-            this.panel_czas_minal.Cursor = System.Windows.Forms.Cursors.Default;
-            this.panel_czas_minal.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.panel_czas_minal.Name = "panel_czas_minal";
-            // 
-            // label7
-            // 
-            resources.ApplyResources(this.label7, "label7");
-            this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label7.Name = "label7";
-            // 
-            // label9
-            // 
-            resources.ApplyResources(this.label9, "label9");
-            this.label9.ForeColor = System.Drawing.Color.DarkRed;
-            this.label9.Name = "label9";
-            // 
-            // button
-            // 
-            this.button.BackColor = System.Drawing.Color.Firebrick;
-            resources.ApplyResources(this.button, "button");
-            this.button.ForeColor = System.Drawing.Color.White;
-            this.button.Name = "button";
-            this.button.TabStop = false;
-            this.button.UseVisualStyleBackColor = false;
-            this.button.Click += new System.EventHandler(this.reset_button_Click);
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Firebrick;
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Name = "button2";
-            this.button2.TabStop = false;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.ZAKONCZ_GRE_Click);
-            // 
-            // panel_konca_etapu
-            // 
-            resources.ApplyResources(this.panel_konca_etapu, "panel_konca_etapu");
-            this.panel_konca_etapu.BackColor = System.Drawing.Color.SteelBlue;
-            this.panel_konca_etapu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel_konca_etapu.Controls.Add(this.radioButton2);
-            this.panel_konca_etapu.Controls.Add(this.radioButton_nie);
-            this.panel_konca_etapu.Controls.Add(this.label11);
-            this.panel_konca_etapu.Controls.Add(this.DALEJ);
-            this.panel_konca_etapu.Controls.Add(this.label8);
-            this.panel_konca_etapu.Controls.Add(this.label10);
-            this.panel_konca_etapu.Controls.Add(this.button5);
-            this.panel_konca_etapu.Controls.Add(this.button6);
-            this.panel_konca_etapu.Cursor = System.Windows.Forms.Cursors.Default;
-            this.panel_konca_etapu.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.panel_konca_etapu.Name = "panel_konca_etapu";
-            // 
-            // radioButton2
-            // 
-            resources.ApplyResources(this.radioButton2, "radioButton2");
-            this.radioButton2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton_nie
-            // 
-            resources.ApplyResources(this.radioButton_nie, "radioButton_nie");
-            this.radioButton_nie.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.radioButton_nie.Name = "radioButton_nie";
-            this.radioButton_nie.TabStop = true;
-            this.radioButton_nie.UseVisualStyleBackColor = true;
-            // 
-            // label11
-            // 
-            resources.ApplyResources(this.label11, "label11");
-            this.label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label11.Name = "label11";
-            // 
-            // DALEJ
-            // 
-            this.DALEJ.BackColor = System.Drawing.Color.Firebrick;
-            resources.ApplyResources(this.DALEJ, "DALEJ");
-            this.DALEJ.ForeColor = System.Drawing.Color.White;
-            this.DALEJ.Name = "DALEJ";
-            this.DALEJ.TabStop = false;
-            this.DALEJ.UseVisualStyleBackColor = false;
-            this.DALEJ.Click += new System.EventHandler(this.DALEJ_Click);
-            // 
-            // label8
-            // 
-            resources.ApplyResources(this.label8, "label8");
-            this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label8.Name = "label8";
-            // 
-            // label10
-            // 
-            resources.ApplyResources(this.label10, "label10");
-            this.label10.ForeColor = System.Drawing.Color.LimeGreen;
-            this.label10.Name = "label10";
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.Firebrick;
-            resources.ApplyResources(this.button5, "button5");
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Name = "button5";
-            this.button5.TabStop = false;
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.reset_button_Click);
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.Firebrick;
-            resources.ApplyResources(this.button6, "button6");
-            this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button6.Name = "button6";
-            this.button6.TabStop = false;
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.ZAKONCZ_GRE_Click);
-            // 
-            // panel_koncowy_1
-            // 
-            resources.ApplyResources(this.panel_koncowy_1, "panel_koncowy_1");
-            this.panel_koncowy_1.BackColor = System.Drawing.Color.SteelBlue;
-            this.panel_koncowy_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel_koncowy_1.Controls.Add(this.label16);
-            this.panel_koncowy_1.Controls.Add(this.label12);
-            this.panel_koncowy_1.Controls.Add(this.button8);
-            this.panel_koncowy_1.Controls.Add(this.label13);
-            this.panel_koncowy_1.Controls.Add(this.label14);
-            this.panel_koncowy_1.Controls.Add(this.button10);
-            this.panel_koncowy_1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.panel_koncowy_1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.panel_koncowy_1.Name = "panel_koncowy_1";
-            // 
-            // label12
-            // 
-            resources.ApplyResources(this.label12, "label12");
-            this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label12.Name = "label12";
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.Firebrick;
-            resources.ApplyResources(this.button8, "button8");
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Name = "button8";
-            this.button8.TabStop = false;
-            this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.reset_button_Click);
-            // 
-            // label13
-            // 
-            resources.ApplyResources(this.label13, "label13");
-            this.label13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label13.Name = "label13";
-            // 
-            // label14
-            // 
-            resources.ApplyResources(this.label14, "label14");
-            this.label14.ForeColor = System.Drawing.Color.LimeGreen;
-            this.label14.Name = "label14";
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.Firebrick;
-            resources.ApplyResources(this.button10, "button10");
-            this.button10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button10.Name = "button10";
-            this.button10.TabStop = false;
-            this.button10.UseVisualStyleBackColor = false;
-            this.button10.Click += new System.EventHandler(this.ZAKONCZ_GRE_Click);
-            // 
-            // label16
-            // 
-            resources.ApplyResources(this.label16, "label16");
-            this.label16.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label16.Name = "label16";
-            // 
-            // panel_koncowy_2
-            // 
-            resources.ApplyResources(this.panel_koncowy_2, "panel_koncowy_2");
-            this.panel_koncowy_2.BackColor = System.Drawing.Color.SteelBlue;
-            this.panel_koncowy_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel_koncowy_2.Controls.Add(this.label15);
-            this.panel_koncowy_2.Controls.Add(this.label17);
-            this.panel_koncowy_2.Controls.Add(this.button1);
-            this.panel_koncowy_2.Controls.Add(this.label18);
-            this.panel_koncowy_2.Controls.Add(this.label19);
-            this.panel_koncowy_2.Controls.Add(this.button3);
-            this.panel_koncowy_2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.panel_koncowy_2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.panel_koncowy_2.Name = "panel_koncowy_2";
-            // 
-            // label15
-            // 
-            resources.ApplyResources(this.label15, "label15");
-            this.label15.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label15.Name = "label15";
-            // 
-            // label17
-            // 
-            resources.ApplyResources(this.label17, "label17");
-            this.label17.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label17.Name = "label17";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Firebrick;
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Name = "button1";
-            this.button1.TabStop = false;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.reset_button_Click);
-            // 
-            // label18
-            // 
-            resources.ApplyResources(this.label18, "label18");
-            this.label18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label18.Name = "label18";
-            // 
-            // label19
-            // 
-            resources.ApplyResources(this.label19, "label19");
-            this.label19.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label19.Name = "label19";
-            this.label19.Click += new System.EventHandler(this.label19_Click);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Firebrick;
-            resources.ApplyResources(this.button3, "button3");
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Name = "button3";
-            this.button3.TabStop = false;
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.ZAKONCZ_GRE_Click);
-            // 
-            // timer_przybycia_medykow
-            // 
-            this.timer_przybycia_medykow.Interval = 10000;
-            this.timer_przybycia_medykow.Tick += new System.EventHandler(this.timer_przybycia_medykow_Tick);
-            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.panel_koncowy_3);
             this.Controls.Add(this.panel_koncowy_2);
             this.Controls.Add(this.panel_koncowy_1);
             this.Controls.Add(this.panel_konca_etapu);
@@ -704,17 +778,6 @@ namespace RKO_2020
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyUp);
             this.panelMENU.ResumeLayout(false);
             this.panelMENU.PerformLayout();
-            this.panel_głowny.ResumeLayout(false);
-            this.panel_wyboru3.ResumeLayout(false);
-            this.panel_wyboru3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.obserwator_pictureBox)).EndInit();
-            this.panel_wyboru2.ResumeLayout(false);
-            this.panel_wyboru2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.glowa_pictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tułow_pictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.głowne_postaci_pictureBox)).EndInit();
-            this.panel_wyboru1.ResumeLayout(false);
-            this.panel_wyboru1.PerformLayout();
             this.dymek_1.ResumeLayout(false);
             this.dymek_1.PerformLayout();
             this.dymek_2.ResumeLayout(false);
@@ -729,6 +792,21 @@ namespace RKO_2020
             this.panel_koncowy_1.PerformLayout();
             this.panel_koncowy_2.ResumeLayout(false);
             this.panel_koncowy_2.PerformLayout();
+            this.panel_koncowy_3.ResumeLayout(false);
+            this.panel_koncowy_3.PerformLayout();
+            this.panel_głowny.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.medyk1_picture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.medyk2_picture)).EndInit();
+            this.panel_wyboru3.ResumeLayout(false);
+            this.panel_wyboru3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.obserwator_pictureBox)).EndInit();
+            this.panel_wyboru2.ResumeLayout(false);
+            this.panel_wyboru2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.glowa_pictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tułow_pictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.głowne_postaci_pictureBox)).EndInit();
+            this.panel_wyboru1.ResumeLayout(false);
+            this.panel_wyboru1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -739,7 +817,7 @@ namespace RKO_2020
         private System.Windows.Forms.Panel panel_głowny;
         private System.Windows.Forms.Panel panelMENU;
         private System.Windows.Forms.Label CZAS_BOX;
-        private System.Windows.Forms.Label Poziom_Życia;
+        private System.Windows.Forms.Label Poziom_Zycia_label;
         private System.Windows.Forms.Timer timer_sprawdzający;
         public System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button opcja3;
@@ -791,7 +869,6 @@ namespace RKO_2020
         private Label label12;
         private Button button8;
         private Label label13;
-        private Label label14;
         private Button button10;
         private Label label16;
         public Panel panel_koncowy_2;
@@ -799,9 +876,17 @@ namespace RKO_2020
         private Label label17;
         private Button button1;
         private Label label18;
-        private Label label19;
         private Button button3;
         private Timer timer_przybycia_medykow;
+        public Panel panel_koncowy_3;
+        private Button button4;
+        private Label label22;
+        private Button button7;
+        private PictureBox medyk1_picture;
+        private PictureBox medyk2_picture;
+        private Label label14;
+        private Label label19;
+        private Label label23;
     }
 }
 
