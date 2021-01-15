@@ -106,6 +106,7 @@ namespace RKO_2020
             this.opcja1 = new System.Windows.Forms.Button();
             this.opcja2 = new System.Windows.Forms.Button();
             this.opcja3 = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.panelMENU.SuspendLayout();
             this.dymek_1.SuspendLayout();
             this.dymek_2.SuspendLayout();
@@ -312,6 +313,7 @@ namespace RKO_2020
             this.radioButton_nie.Name = "radioButton_nie";
             this.radioButton_nie.TabStop = true;
             this.radioButton_nie.UseVisualStyleBackColor = true;
+            this.radioButton_nie.CheckedChanged += new System.EventHandler(this.radioButton_nie_CheckedChanged);
             // 
             // label11
             // 
@@ -482,7 +484,7 @@ namespace RKO_2020
             // 
             // timer_przybycia_medykow
             // 
-            this.timer_przybycia_medykow.Interval = 40000;
+            this.timer_przybycia_medykow.Interval = 180000;
             this.timer_przybycia_medykow.Tick += new System.EventHandler(this.timer_przybycia_medykow_Tick);
             // 
             // panel_koncowy_3
@@ -887,6 +889,7 @@ namespace RKO_2020
         private Label label14;
         private Label label19;
         private Label label23;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
 

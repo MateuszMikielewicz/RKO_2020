@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
+using System.Media;
 
 namespace RKO_2020
 {
@@ -23,6 +24,7 @@ namespace RKO_2020
             Resuscytacja.Poziom_Zycia = 0;
             Resuscytacja.zle_uciski = 1;
             Resuscytacja.idealne_uciski = 1;
+            Pierwsza_pomoc.czy_czas_minal = false;
 
             timer_przybycia_medykow.Enabled = false;
 
@@ -177,6 +179,11 @@ namespace RKO_2020
             Pierwsza_pomoc.stopwatch.Stop();
             Pierwsza_pomoc.stopwatch.Reset();
             Pierwsza_pomoc.stopwatch.Start();
+
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer();
+
+            player.SoundLocation = "nie_nie[WAV].wav";
+            player.Play();
         }
         static public void inicjalizacja_animacji(List<Panel> lista_dymkow, List<PictureBox> lista_pictureBoxow)
         {
@@ -298,18 +305,18 @@ namespace RKO_2020
                 }
             }
         }
-        static public void rozpocznij_etap2(List<PictureBox> lista_pictureBoxow,
-        System.Windows.Forms.Label label1, System.Windows.Forms.Label Poziom_Zycia, Panel panel_konca_etapu, Timer timer_przybycia_medykow) //, List<Panel> lista_paneli_wyboru)
+        static public void rozpocznij_etap2(List<PictureBox> lista_pictureBoxow, Label label1, Label Poziom_Zycia,
+                                            Panel panel_konca_etapu, Timer timer_przybycia_medykow) //, List<Panel> lista_paneli_wyboru)
         {
-            if (Resuscytacja.chalenge == 1)
+            if (Resuscytacja.chalenge == 0)
             {
-                label1.Visible = false;
-                Poziom_Zycia.Visible = false;
+                label1.Show();
+                Poziom_Zycia.Show();
             }
             else
             {
-                label1.Visible = true;
-                Poziom_Zycia.Visible = true;
+                label1.Hide();
+                Poziom_Zycia.Hide();
             }
             label1.Text = "Kliknij spacje, aby ucisnac";
             timer_przybycia_medykow.Enabled = true;
@@ -319,6 +326,11 @@ namespace RKO_2020
             lista_pictureBoxow[3].Hide();
             lista_pictureBoxow[0].Image = Properties.Resources.gotowy_do_ucisku;
             lista_pictureBoxow[1].Enabled = false;
+
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer();
+
+            player.SoundLocation = "BE_GEES_Staying_Alive.wav";
+            player.Play();
         }
         static public void koniec_gry(Control panel_koncowy, Timer timer_przybycia_medykow,bool czy_medycy_przybyli,
                                       List<PictureBox> lista_pictureBox)
@@ -358,6 +370,13 @@ namespace RKO_2020
                 panel_koncowy.Show();
                 lista_pictureBox[4].Image = Properties.Resources.medyk1;
                 lista_pictureBox[5].Image = Properties.Resources.medyk2;
+                if(Resuscytacja.Poziom_Zycia == 100)
+                {
+                    System.Media.SoundPlayer player = new System.Media.SoundPlayer();
+
+                    player.SoundLocation = "Children Yay! Sound Effect.wav";
+                    player.Play();
+                }
             }
         }
         static public String wyniki_koncowe(int rodzaj_wyniku, double zle, double dobre, int bonus)

@@ -9,6 +9,7 @@ using System.Threading;
 using System.Windows.Forms;
 using static RKO_2020.interfejs;
 
+
 namespace RKO_2020
 {
     public partial class Form1 : Form

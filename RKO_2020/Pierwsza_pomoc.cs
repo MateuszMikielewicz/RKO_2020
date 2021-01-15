@@ -27,6 +27,7 @@ namespace RKO_2020
         static public int wybrany_panel=1;
         static public int ticks;
         static public int animacja = 0;
+        static public bool czy_czas_minal = false;
 
         public Pierwsza_pomoc()
         {
@@ -105,8 +106,9 @@ namespace RKO_2020
         }
         public void skonczyl_sie_czas(List<Panel> lista_paneli, Form Form1)
         {
-            if(ticks > 120)
+            if(ticks > 120 && !czy_czas_minal)
             {
+                czy_czas_minal = true;
                 interfejs.wylacz_panel(lista_paneli, Form1);
                 interfejs.wyswietl_panel(lista_paneli[3], 4);
             }

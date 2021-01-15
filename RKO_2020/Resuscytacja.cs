@@ -51,13 +51,13 @@ namespace RKO_2020
                 {
                     interfejs.zmien_label(label_glowny, "            IDEALNIE", Color.Chartreuse, true);
                     idealne_uciski++;
-                    Poziom_Zycia += 5;
+                    Poziom_Zycia += 1;
                 }
                 else if (delta < 500 && Poziom_Zycia != 0) //zmniejszanie życia gdy gracz wciska przycisk zbyt szybko
                 {
                     interfejs.zmien_label(label_glowny, "            ZA SZYBKO", Color.Firebrick, true);
                     zle_uciski++;
-                    Poziom_Zycia -= 5;
+                    Poziom_Zycia -= 1;
                 }
                 //ze wzgledu na metode sprawdzania czy gracz przekroczył czas, to interwał czasu
                 //nieznacznie się wydłuża. Dlatego ten dodatkowy interwał czasu nie zabiera, ani nie dodaje graczowi 
@@ -77,7 +77,7 @@ namespace RKO_2020
                     stopwatch2.Start();
                     interfejs.zmien_label(label_glowny, "            ZA POZNO", Color.Firebrick, true);
                     zle_uciski++;
-                    Poziom_Zycia -= 5;
+                    Poziom_Zycia -= 1;
                 }
             }
         }
