@@ -38,7 +38,7 @@ namespace RKO_2020
                     {
                         ctrl.Text = "Nie oddycha";
                     }
-                    else ctrl.Text = "Oddycha";
+                    else ctrl.Text = "  Oddycha";
                 }
             }
 
@@ -370,10 +370,11 @@ namespace RKO_2020
                 panel_koncowy.Show();
                 lista_pictureBox[4].Image = Properties.Resources.medyk1;
                 lista_pictureBox[5].Image = Properties.Resources.medyk2;
-                if(Resuscytacja.Poziom_Zycia == 100)
-                {
-                    System.Media.SoundPlayer player = new System.Media.SoundPlayer();
 
+                SoundPlayer player = new SoundPlayer();
+                player.Stop();
+                if (Resuscytacja.Poziom_Zycia == 100)
+                {
                     player.SoundLocation = "Children Yay! Sound Effect.wav";
                     player.Play();
                 }
@@ -416,15 +417,45 @@ namespace RKO_2020
                     }
                     else return "Slabo, sprobuj jeszcze raz";
                 default:
-                    int x3 = (int)(-x1 + 3 + 6 * (x2 - 0.5)+bonus);
-                    if (x3 > 6) return "7/6 POZA SKALĄ";
+                    if (x2 > 0.9) x2 = 1;
+
+                    int x3 = (int)((double)(6 * (x2 - 0.5)) - x1 + 3 +bonus);
+                    if (x3 > 6) return "6/5 POZA SKALA";
                     else return Convert.ToString(x3) + "/6";            
             }
+        }
+        static public void zablokuj_wybieranie_paneli(List<PictureBox> lista_PictureBoxow)
+        {
+            lista_PictureBoxow[2].Hide();
+            lista_PictureBoxow[3].Hide();
+            lista_PictureBoxow[1].Enabled = false;
         }
         static public void challenge(RadioButton radioButton_nie)
         {
             if (radioButton_nie.Checked == true) Resuscytacja.chalenge = 0;
             else Resuscytacja.chalenge = 1;
+        }
+        static public void ucisniecie(KeyEventArgs e, Timer timer_przybycia_medykow, Panel panel_koncowy_1, List<PictureBox> lista_pictureBoxow,
+                                    Label Poziom_Zycia_label, Resuscytacja etap2, Label label1)
+        {
+            if (!Resuscytacja.czy_trwa_resuscytacja) return;
+            else if (e.KeyValue == 32)
+            {
+                etap2.Aktualizacja_Zycia(label1, Poziom_Zycia_label, true); // metoda aktualizująca stan życia po kliknięciu przycisku
+                                                                            //(za wczesnie -5% życia; idealnie w czas +5%)
+                lista_pictureBoxow[0].Image = global::RKO_2020.Properties.Resources.ucisk;  //Wyswietl uciskajacą faloske
+                Poziom_Zycia_label.Text = etap2.Wyswietl_Zycie();  //Wyswietl poziom zycia 
+                koniec_gry(panel_koncowy_1, timer_przybycia_medykow, false, lista_pictureBoxow);
+            }
+        }
+        static public void wyprost(PictureBox głowne_postaci_pictureBox, Resuscytacja etap2)
+        {
+            if (!Resuscytacja.czy_trwa_resuscytacja) return;
+            else
+            {
+                głowne_postaci_pictureBox.Image = global::RKO_2020.Properties.Resources.gotowy_do_ucisku;
+                etap2.wcisniety_przycisk = false;
+            }
         }
     }
 }

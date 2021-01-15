@@ -15,7 +15,7 @@ namespace RKO_2020
         public bool wcisniety_przycisk = false;
         static public bool czy_trwa_resuscytacja = false;
         static public int chalenge=0;
-        static public int idealne_uciski = 1;
+        static public int idealne_uciski = 10000;
         static public int zle_uciski = 1;
         TimeSpan ts = new TimeSpan();
         TimeSpan ts2 = new TimeSpan();

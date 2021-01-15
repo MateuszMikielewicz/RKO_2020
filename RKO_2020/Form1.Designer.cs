@@ -106,7 +106,6 @@ namespace RKO_2020
             this.opcja1 = new System.Windows.Forms.Button();
             this.opcja2 = new System.Windows.Forms.Button();
             this.opcja3 = new System.Windows.Forms.Button();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.panelMENU.SuspendLayout();
             this.dymek_1.SuspendLayout();
             this.dymek_2.SuspendLayout();
@@ -546,7 +545,6 @@ namespace RKO_2020
             this.panel_głowny.Controls.Add(this.głowne_postaci_pictureBox);
             this.panel_głowny.Controls.Add(this.panel_wyboru1);
             this.panel_głowny.Name = "panel_głowny";
-            this.panel_głowny.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel_głowny_MouseMove);
             // 
             // medyk1_picture
             // 
@@ -889,7 +887,6 @@ namespace RKO_2020
         private Label label14;
         private Label label19;
         private Label label23;
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
 

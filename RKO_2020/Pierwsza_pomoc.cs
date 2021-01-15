@@ -104,10 +104,11 @@ namespace RKO_2020
                     break;
             }
         }
-        public void skonczyl_sie_czas(List<Panel> lista_paneli, Form Form1)
+        public void skonczyl_sie_czas(List<Panel> lista_paneli, Form Form1, List<PictureBox> lista_PictureBoxow)
         {
             if(ticks > 120 && !czy_czas_minal)
             {
+                interfejs.zablokuj_wybieranie_paneli(lista_PictureBoxow);
                 czy_czas_minal = true;
                 interfejs.wylacz_panel(lista_paneli, Form1);
                 interfejs.wyswietl_panel(lista_paneli[3], 4);

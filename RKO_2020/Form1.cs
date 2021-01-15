@@ -34,7 +34,7 @@ namespace RKO_2020
             etap2.Aktualizacja_Zycia(label1, Poziom_Zycia_label, false);
             Poziom_Zycia_label.Text=etap2.Wyswietl_Zycie();
             animacje(label1, CZAS_BOX, lista_pictureBoxow, lista_dymkow);
-            etap1.skonczyl_sie_czas(lista_paneli_wyboru, this);
+            etap1.skonczyl_sie_czas(lista_paneli_wyboru, this, lista_pictureBoxow);
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -64,23 +64,12 @@ namespace RKO_2020
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)  ///wciskanie przycisku spacji
         {
-            if (!Resuscytacja.czy_trwa_resuscytacja) return;
-            else if (e.KeyValue == 32) { 
-                etap2.Aktualizacja_Zycia(label1, Poziom_Zycia_label, true); // metoda aktualizująca stan życia po kliknięciu przycisku
-                                                                 //(za wczesnie -5% życia; idealnie w czas +5%)
-                głowne_postaci_pictureBox.Image = global::RKO_2020.Properties.Resources.ucisk;  //Wyswietl uciskajacą faloske
-                Poziom_Zycia_label.Text = etap2.Wyswietl_Zycie();  //Wyswietl poziom zycia 
-                koniec_gry(panel_koncowy_1, timer_przybycia_medykow, false, lista_pictureBoxow);
-            }
+            ucisniecie(e, timer_przybycia_medykow, panel_koncowy_1, lista_pictureBoxow, Poziom_Zycia_label, etap2, label1);
         }
 
         private void Form1_KeyUp(object sender, KeyEventArgs e)     ///pusczenie przycisku spacji
         {
-            if (!Resuscytacja.czy_trwa_resuscytacja) return;
-            else {
-                głowne_postaci_pictureBox.Image = global::RKO_2020.Properties.Resources.gotowy_do_ucisku;
-                etap2.wcisniety_przycisk = false;
-            }
+            wyprost(głowne_postaci_pictureBox, etap2);
         }
 
         private void tułow_pictureBox_MouseEnter(object sender, EventArgs e)
@@ -144,10 +133,6 @@ namespace RKO_2020
             wylacz_panel(lista_paneli_wyboru, this);
             etap1.obsługa_wyboru(3, label1, CZAS_BOX, lista_dymkow, lista_pictureBoxow, lista_paneli_wyboru);
         }
-        private void panel_głowny_MouseMove(object sender, MouseEventArgs e)
-        {
-            //label1.Text = e.X + ", " + e.Y;
-        }
 
         private void reset_button_Click(object sender, EventArgs e)
         {
@@ -162,11 +147,6 @@ namespace RKO_2020
         private void DALEJ_Click(object sender, EventArgs e)
         {
             rozpocznij_etap2(lista_pictureBoxow, label1, Poziom_Zycia_label, panel_konca_etapu, timer_przybycia_medykow);
-        }
-
-        private void label19_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void timer_przybycia_medykow_Tick(object sender, EventArgs e)
