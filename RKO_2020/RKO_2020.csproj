@@ -143,6 +143,9 @@
     <None Include="Resources\medyk2.png" />
     <None Include="Resources\medyk1.png" />
     <None Include="Resources\cieszace_sie_fasolki.png" />
+    <None Include="bin\Debug\BE_GEES_Staying_Alive.wav" />
+    <None Include="bin\Debug\Children Yay! Sound Effect.wav" />
+    <None Include="bin\Debug\nie_nie[WAV].wav" />
     <Content Include="Resources\pozycja_boczna_bezpieczna.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

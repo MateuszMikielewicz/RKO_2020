@@ -12,11 +12,6 @@ namespace RKO_2020
 {
     public class Pierwsza_pomoc
     {
-        public Bitmap obraz_bazowy = Properties.Resources.pozycja_startowa;
-        public Bitmap obraz_zaznaczonej_głowy = Properties.Resources.Przed_położeniem_głowy_zaznaczenie;
-        public Bitmap obraz_zaznaczonego_tułowia = Properties.Resources.pozycja_startowa_zaznaczenie_ciała;
-        public Bitmap obraz_bazowy_obserwatora = Properties.Resources.obserwator;
-        public Bitmap obraz_zaznaczonego_obserwatora = Properties.Resources.obserwator_zaznaczony;
         static public List<Bitmap> lista_obrazow = new List<Bitmap>();
         static public Stopwatch stopwatch = new Stopwatch();
         static public  Random rdn = new Random();
@@ -24,9 +19,9 @@ namespace RKO_2020
         static public bool etap2_nierozpoczety;
         static public int przypadek;
         static public int stan_postepu;
-        static public int wybrany_panel=1;
+        static public int wybrany_panel;
         static public int ticks;
-        static public int animacja = 0;
+        static public int animacja;
         static public bool czy_czas_minal = false;
 
         public Pierwsza_pomoc()
@@ -34,13 +29,16 @@ namespace RKO_2020
             stan_postepu = 1;
             etap2_nierozpoczety = true;
             ticks = 0;
-            lista_obrazow.Add(obraz_bazowy);
-            lista_obrazow.Add(obraz_zaznaczonej_głowy);
-            lista_obrazow.Add(obraz_zaznaczonego_tułowia);
-            lista_obrazow.Add(obraz_bazowy_obserwatora);
-            lista_obrazow.Add(obraz_zaznaczonego_obserwatora);
+            wybrany_panel = 1;
+            animacja = 0;
+
+            lista_obrazow.Add(Properties.Resources.pozycja_startowa);
+            lista_obrazow.Add(Properties.Resources.Przed_położeniem_głowy_zaznaczenie);
+            lista_obrazow.Add(Properties.Resources.pozycja_startowa_zaznaczenie_ciała);
+            lista_obrazow.Add(Properties.Resources.obserwator);
+            lista_obrazow.Add(Properties.Resources.obserwator_zaznaczony);
+
             przypadek = ((int)rdn.Next(1, 50))/30 + 1;
-            Console.WriteLine(przypadek);
         }
         public void obsługa_wyboru(int nr_opcji, Label instancja_tekstu, Label instancja_czasu, List<Panel> lista_dymkow, List<PictureBox> lista_pictureBoxow, List<Panel> panel_koncowy_etapu)
         {

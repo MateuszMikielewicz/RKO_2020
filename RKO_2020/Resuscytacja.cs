@@ -12,17 +12,23 @@ namespace RKO_2020
     public class Resuscytacja
     {
         static public int Poziom_Zycia;
-        public bool wcisniety_przycisk = false;
-        static public bool czy_trwa_resuscytacja = false;
-        static public int chalenge=0;
-        static public int idealne_uciski = 1;
-        static public int zle_uciski = 1;
+        public bool wcisniety_przycisk;
+        static public bool czy_trwa_resuscytacja;
+        static public int chalenge;
+        static public int idealne_uciski ;
+        static public int zle_uciski;
         TimeSpan ts = new TimeSpan();
         TimeSpan ts2 = new TimeSpan();
         Stopwatch stopwatch = new Stopwatch();
         Stopwatch stopwatch2 = new Stopwatch();
-        public Resuscytacja() {
+        public Resuscytacja()
+        {
             Poziom_Zycia = 0;
+            wcisniety_przycisk = false;
+            czy_trwa_resuscytacja = false;
+            chalenge = 0;
+            idealne_uciski = 1;
+            zle_uciski = 1;
         }
         public void Aktualizacja_Zycia(Label label_glowny, Label label_Poziom_Zycia, bool czy_kliknieto_spacje)
         {
