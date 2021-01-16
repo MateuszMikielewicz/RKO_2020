@@ -188,9 +188,7 @@ namespace RKO_2020
             Pierwsza_pomoc.stopwatch.Reset();
             Pierwsza_pomoc.stopwatch.Start();
 
-            System.Media.SoundPlayer player = new System.Media.SoundPlayer();
-
-            player.SoundLocation = "nie_nie[WAV].wav";
+            SoundPlayer player = new SoundPlayer($@"{System.IO.Path.GetDirectoryName(Application.StartupPath).Replace("bin", "Resources")}\pliki_wav\nie_nie[WAV].wav");
             player.Play();
         }
         static public void inicjalizacja_animacji(List<Panel> lista_dymkow, List<PictureBox> lista_pictureBoxow)
@@ -335,9 +333,7 @@ namespace RKO_2020
             lista_pictureBoxow[0].Image = Properties.Resources.gotowy_do_ucisku;
             lista_pictureBoxow[1].Enabled = false;
 
-            System.Media.SoundPlayer player = new System.Media.SoundPlayer();
-
-            player.SoundLocation = "BE_GEES_Staying_Alive.wav";
+            SoundPlayer player = new SoundPlayer($@"{System.IO.Path.GetDirectoryName(Application.StartupPath).Replace("bin", "Resources")}\pliki_wav\BE_GEES_Staying_Alive.wav");
             player.Play();
         }
         static public void koniec_gry(Control panel_koncowy, Timer timer_przybycia_medykow,bool czy_medycy_przybyli,
@@ -377,14 +373,13 @@ namespace RKO_2020
                 }
                 panel_koncowy.Show();
 
-                SoundPlayer player = new SoundPlayer();
+                SoundPlayer player = new SoundPlayer($@"{System.IO.Path.GetDirectoryName(Application.StartupPath).Replace("bin", "Resources")}\pliki_wav\Children Yay! Sound Effect.wav");
                 player.Stop();
 
                 if (Resuscytacja.Poziom_Zycia == 100)
                 {
                     lista_pictureBox[0].Image = Properties.Resources.cieszace_sie_fasolki;
 
-                    player.SoundLocation = "Children Yay! Sound Effect.wav";
                     player.Play();
                 }
                 else

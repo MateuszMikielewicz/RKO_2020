@@ -178,13 +178,4 @@
   <data name="cieszace_sie_fasolki" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cieszace_sie_fasolki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BE_GEES_Staying_Alive" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\BE_GEES_Staying_Alive.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Children_Yay__Sound_Effect" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\Children Yay! Sound Effect.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="nie_nie_WAV_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\nie_nie[WAV].wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
 </root>

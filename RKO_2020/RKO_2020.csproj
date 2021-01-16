@@ -96,9 +96,6 @@
     <None Include="Resources\gotowy_do_ucisku.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Image1.bmp" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\obserwator_z_telefonem.png" />
   </ItemGroup>
   <ItemGroup>
@@ -146,7 +143,6 @@
     <None Include="bin\Debug\BE_GEES_Staying_Alive.wav" />
     <None Include="bin\Debug\Children Yay! Sound Effect.wav" />
     <None Include="bin\Debug\nie_nie[WAV].wav" />
-    <Content Include="Resources\pozycja_boczna_bezpieczna.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -61,24 +61,6 @@ namespace RKO_2020.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
-        internal static System.IO.UnmanagedMemoryStream BE_GEES_Staying_Alive {
-            get {
-                return ResourceManager.GetStream("BE_GEES_Staying_Alive", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
-        internal static System.IO.UnmanagedMemoryStream Children_Yay__Sound_Effect {
-            get {
-                return ResourceManager.GetStream("Children_Yay__Sound_Effect", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap cieszace_sie_fasolki {
@@ -115,15 +97,6 @@ namespace RKO_2020.Properties {
             get {
                 object obj = ResourceManager.GetObject("medyk2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
-        /// </summary>
-        internal static System.IO.UnmanagedMemoryStream nie_nie_WAV_ {
-            get {
-                return ResourceManager.GetStream("nie_nie_WAV_", resourceCulture);
             }
         }
         
