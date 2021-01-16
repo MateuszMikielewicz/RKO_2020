@@ -483,7 +483,7 @@ namespace RKO_2020
             // 
             // timer_przybycia_medykow
             // 
-            this.timer_przybycia_medykow.Interval = 180000;
+            this.timer_przybycia_medykow.Interval = 120000;
             this.timer_przybycia_medykow.Tick += new System.EventHandler(this.timer_przybycia_medykow_Tick);
             // 
             // panel_koncowy_3

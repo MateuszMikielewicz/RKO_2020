@@ -15,6 +15,9 @@ namespace RKO_2020
         static public void reset(List<Panel> lista_paneli_wyboru, List<PictureBox> lista_pictureBoxow, RadioButton radioButton_nie, 
                                 Form form1, Label label1, Label Poziom_Zycia_label, Timer timer_przybycia_medykow, List<Panel>lista_dymków)
         {
+            SoundPlayer player = new SoundPlayer();
+            player.Stop();
+
             Pierwsza_pomoc.przypadek = Pierwsza_pomoc.rdn.Next(1, 50) / 30 + 1;
             Console.WriteLine(Pierwsza_pomoc.przypadek);
 
@@ -127,7 +130,7 @@ namespace RKO_2020
                 }
             }
         }
-        static public String Wyswietl_czas()
+        static public void Wyswietl_czas(Label CZAS_BOX)
         {
             if (Pierwsza_pomoc.stan_postepu != 6)
             {
@@ -138,9 +141,14 @@ namespace RKO_2020
 
             if (sekundy < 10)
             {
-                return "CZAS " + (Pierwsza_pomoc.ticks / 60).ToString() + ":0" + sekundy.ToString();
+                CZAS_BOX.Text= "CZAS " + (Pierwsza_pomoc.ticks / 60).ToString() + ":0" + sekundy.ToString();
             }
-            return "CZAS " + (Pierwsza_pomoc.ticks / 60).ToString() + ":" + sekundy.ToString();
+
+            else CZAS_BOX.Text= "CZAS " + (Pierwsza_pomoc.ticks / 60).ToString() + ":" + sekundy.ToString();
+        }
+        static public void Wyswietl_Zycie(Label label_Poziom_Zycia)
+        {
+            label_Poziom_Zycia.Text= "POZIOM ZYWOTNOSCI " + Resuscytacja.Poziom_Zycia.ToString() + "%";
         }
         static public void wyswietl_obraz(Bitmap bitmap, System.Windows.Forms.PictureBox instancja)
         {
@@ -368,21 +376,27 @@ namespace RKO_2020
                     }
                 }
                 panel_koncowy.Show();
-                lista_pictureBox[4].Image = Properties.Resources.medyk1;
-                lista_pictureBox[5].Image = Properties.Resources.medyk2;
 
                 SoundPlayer player = new SoundPlayer();
                 player.Stop();
+
                 if (Resuscytacja.Poziom_Zycia == 100)
                 {
+                    lista_pictureBox[0].Image = Properties.Resources.cieszace_sie_fasolki;
+
                     player.SoundLocation = "Children Yay! Sound Effect.wav";
                     player.Play();
+                }
+                else
+                {
+                    lista_pictureBox[4].Image = Properties.Resources.medyk1;
+                    lista_pictureBox[5].Image = Properties.Resources.medyk2;
                 }
             }
         }
         static public String wyniki_koncowe(int rodzaj_wyniku, double zle, double dobre, int bonus)
         {
-            int x1 = Pierwsza_pomoc.ticks / 30;
+            int x1 = Pierwsza_pomoc.ticks / 45;
             double x2 = dobre / (zle + dobre);
             switch (rodzaj_wyniku)
             {
@@ -392,34 +406,43 @@ namespace RKO_2020
                         case 0:
                             return "Mistrzowsko";
                         case 1:
-                            return "Swietnie, dobry czas";
+                            return "Dobrze, super czas";
                         case 2:
-                            return "Dobrze, ale mozesz szybciej";
+                            return "Tak se, mozesz szybciej";
                         default:
                             return "Musisz jeszcze popracowac";
                     }
                 case 2:
-                   if(x2 > 0.9)
+                    if (x2 > 0.9)
                     {
                         return "Mistrzowsko";
                     }
                     else if (x2 > 0.8)
                     {
-                        return "Swietnie";
+                        return "Dobrze";
                     }
                     else if (x2 > 0.6)
                     {
-                        return "Dobrze";
+                        return "Tak se";
                     }
                     else if (x2 > 0.5)
                     {
-                        return "Musisz jeszcze popracowac";
+                        return "Slabo, musisz jeszcze popracowac";
                     }
-                    else return "Slabo, sprobuj jeszcze raz";
+                    else
+                    {
+                        return "Koszmarek, sprobuj jeszcze raz";
+                    }
                 default:
-                    if (x2 > 0.9) x2 = 1;
 
-                    int x3 = (int)((double)(6 * (x2 - 0.5)) - x1 + 3 +bonus);
+                    if (x2 > 0.9) x2 = 3;
+                    else if (x2 > 0.8) x2 = 2;
+                    else if (x2 > 0.6) x2 = 1;
+                    else if (x2 > 0.5) x2 = 0;
+                    else x1 = -1;
+
+                    int x3 = (int)(3 - x1 + x2 +bonus);
+
                     if (x3 > 6) return "6/5 POZA SKALA";
                     else return Convert.ToString(x3) + "/6";            
             }
@@ -444,7 +467,7 @@ namespace RKO_2020
                 etap2.Aktualizacja_Zycia(label1, Poziom_Zycia_label, true); // metoda aktualizująca stan życia po kliknięciu przycisku
                                                                             //(za wczesnie -5% życia; idealnie w czas +5%)
                 lista_pictureBoxow[0].Image = global::RKO_2020.Properties.Resources.ucisk;  //Wyswietl uciskajacą faloske
-                Poziom_Zycia_label.Text = etap2.Wyswietl_Zycie();  //Wyswietl poziom zycia 
+                Wyswietl_Zycie(Poziom_Zycia_label);  //Wyswietl poziom zycia 
                 koniec_gry(panel_koncowy_1, timer_przybycia_medykow, false, lista_pictureBoxow);
             }
         }

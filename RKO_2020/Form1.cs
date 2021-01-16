@@ -27,18 +27,18 @@ namespace RKO_2020
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            CZAS_BOX.Text = Wyswietl_czas();   //Wyświetlanie czasu
+            Wyswietl_czas(CZAS_BOX);   //Wyświetlanie czasu
         }
         private void timer_sprawdzający_Tick(object sender, EventArgs e)
         {
             etap2.Aktualizacja_Zycia(label1, Poziom_Zycia_label, false);
-            Poziom_Zycia_label.Text=etap2.Wyswietl_Zycie();
             animacje(label1, CZAS_BOX, lista_pictureBoxow, lista_dymkow);
             etap1.skonczyl_sie_czas(lista_paneli_wyboru, this, lista_pictureBoxow);
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //tworzenie listy elementow
             lista_dymkow.Add(dymek_1);
             lista_dymkow.Add(dymek_2);
             lista_dymkow.Add(dymek_3);
@@ -58,7 +58,9 @@ namespace RKO_2020
             lista_paneli_wyboru.Add(panel_koncowy_1);
             lista_paneli_wyboru.Add(panel_koncowy_2);
             lista_paneli_wyboru.Add(panel_koncowy_3);
+            //-------
 
+            //inicjalizacja etapu1
             inicjalizuj_etap1(lista_paneli_wyboru, lista_pictureBoxow, radioButton_nie, lista_dymkow);
         }
 

@@ -63,6 +63,16 @@ namespace RKO_2020.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cieszace_sie_fasolki {
+            get {
+                object obj = ResourceManager.GetObject("cieszace_sie_fasolki", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gotowy_do_ucisku {
             get {
                 object obj = ResourceManager.GetObject("gotowy_do_ucisku", resourceCulture);

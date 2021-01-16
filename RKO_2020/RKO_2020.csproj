@@ -46,7 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Czas.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +142,7 @@
     <None Include="Resources\pozycja_boczna_bezpieczna_skulony_bohater.png" />
     <None Include="Resources\medyk2.png" />
     <None Include="Resources\medyk1.png" />
+    <None Include="Resources\cieszace_sie_fasolki.png" />
     <Content Include="Resources\pozycja_boczna_bezpieczna.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
